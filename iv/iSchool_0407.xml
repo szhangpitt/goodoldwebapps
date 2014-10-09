@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <professor>
+    <name>Alberto Apostolico</name>
+    <school>Georgia Institute of Technology</school>
+    <program>Computational Science and Engineering</program>
+    <interests>
+      <interest>Intelligent Systems</interest>
+      <interest>Information Visualization</interest>
+    </interests>
+  </professor>
+  <professor>
+    <name>David A. Bader</name>
+    <school>Georgia Institute of Technology</school>
+    <program>Computational Science and Engineering</program>
+    <interests>
+      <interest>Digital Libraries</interest>
+    </interests>
+  </professor>
+  <professor>
+    <name>George Biros</name>
+    <school>Georgia Institute of Technology</school>
+    <program>Computational Science and Engineering</program>
+    <interests>
+      <interest>information retrieval</interest>   
+      <interest>Intelligent Systems</interest>    
+      <interest>Cognitive Science</interest>
+      <interest>Intelligent Systems</interest>    
+      <interest>informatics</interest>
+    </interests>
+  </professor>
+  <professor>
+    <name>Richard Fujimoto</name>
+    <school>Georgia Institute of Technology</school>
+    <program>Computational Science and Engineering</program>
+    <interests>
+      <interest>Intelligent Systems</interest>
+      <interest>human computer interaction</interest>
+    </interests>
+  </professor>
+  </root>

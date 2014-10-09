@@ -1,0 +1,302 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>Register</title>
+
+<style>
+.alert{ color:#F00;}
+.ok{color:#0F0;}
+.hint{ color:#999; font-style:italic; font-size:smaller;  }
+</style>
+
+<script type="text/javascript" language="JavaScript">
+
+
+var fn_ok = false;
+var ln_ok = false;
+var email_ok = false;
+var password_ok = false;
+var phone_ok = false;
+function alertSpan(span_id, alertmsg)
+{
+	document.getElementById(span_id).innerHTML = alertmsg;
+	}
+	
+function removeAlert(span_id)
+{
+	document.getElementById(span_id).innerHTML = null;
+	}
+
+function approveSpan(span_id)
+{
+	document.getElementById(span_id).innerHTML = "OK";
+	}
+// Validates the person's first name...must be all letters
+function check_firstName() {
+	var firstName = document.myform.fname.value;
+	//document.myform.fname_status.value = "";
+	i=0;
+	
+	if (firstName.length<1) {
+//			document.myform.fname_status.value="Please enter something";
+			removeAlert("firstname_ok");
+			alertSpan("firstname_alert", "Please enter something");
+			//document.myform.fname.focus();
+			fn_ok = false;
+			return false;
+	}
+	
+	while(i<firstName.length) {
+		if ((firstName.charCodeAt(i)>64) && (firstName.charCodeAt(i)<91) ||
+			(firstName.charCodeAt(i)>96) && (firstName.charCodeAt(i)<123)   ){
+			i++;
+		}
+		else {
+			//document.myform.fname_status.value="C'mon, that can't be right";
+			removeAlert("firstname_ok");
+			alertSpan("firstname_alert", "Your input might have error");
+			//document.myform.fname.focus();
+			fn_ok = false;
+			return false;
+		}	
+	}
+//	document.myform.fname_status.value="Thank you";
+	removeAlert("firstname_alert");
+	approveSpan("firstname_ok");
+	fn_ok = true;
+	return true;
+}
+
+// Validates the Last Name field...must also be all letters, but allows for
+// hyphens and apostrophes
+function check_lastName() {
+	var lastName = document.myform.lname.value;
+	//document.myform.lname_status.value = "";
+	i=0;
+	
+	if (lastName.length<1) {
+			//document.myform.lname_status.value="Please enter something";
+			removeAlert("lastname_ok");
+			alertSpan("lastname_alert", "Please enter something");
+			//document.myform.lname.focus();
+			ln_ok = false;
+			return false;
+	}
+	
+	while(i<lastName.length) {
+		if ((lastName.charCodeAt(i)>64) && (lastName.charCodeAt(i)<91) ||
+			(lastName.charCodeAt(i)>96) && (lastName.charCodeAt(i)<123)||
+			(lastName.charCodeAt(i)==39) || (lastName.charCodeAt(i)==45)){
+			i++;
+		}
+		else {
+			//document.myform.lname_status.value="C'mon, that can't be right";
+			removeAlert("lastname_ok");
+			alertSpan("lastname_alert", "Your input might have error");
+			//document.myform.lname.focus();
+			ln_ok = false;
+			return false;
+		}	
+	}
+	//document.myform.lname_status.value="Thank you";
+	removeAlert("lastname_alert");
+	approveSpan("lastname_ok");
+	ln_ok=true;
+	return true;
+}
+
+// Validates the Email field...must be of the form something@something.domain
+function check_email() {
+	var email = document.myform.email.value;
+	var reg = new RegExp("^[a-zA-Z_0-9]+@([a-zA-Z_0-9]+)[\.]{1}[a-zA-Z]{2,3}$");
+	
+	if(email.length<1){
+		removeAlert("email_ok");
+		alertSpan("email_alert", "Please enter your email");
+		email_ok = false;
+		return false;
+		}
+	if (!reg.test(email)) {
+//		document.myform.email_status.value="Please enter a valid email address";
+		removeAlert("email_ok");
+		alertSpan("email_alert","Please enter a valid email address");
+		//document.myform.email.focus();
+		email_ok = false;
+		return false;
+	}
+	else {
+//		document.myform.email_status.value="Thank you";
+		removeAlert("email_alert");
+		approveSpan("email_ok");
+		email_ok = true;
+		return true;
+	}
+}
+
+// Validates the Local Phone field...must be of the form (###)###-####
+// with optional "()", "-", ".", or " " as separators
+function check_phone() {
+	var phone = document.myform.phone.value;
+	var reg = new RegExp("^[\(]?[0-9]{3}[\)]?[ -.]*?[0-9]{3}[ -.]*?[0-9]{4}$");
+	
+	if(phone.length<1){
+			removeAlert("phone_ok");
+			alertSpan("phone_alert", "Please enter your phone number");
+		}
+	if (!reg.test(phone)) {
+//		document.myform.phone_status.value="Please enter a valid phone number";
+		removeAlert("phone_ok");
+		alertSpan("phone_alert", "Please enter a valid phone number: xxx-xxx-xxxx");
+		//document.myform.phone.focus();
+		phone_ok = false;
+		return false;
+	}
+	else {
+//		document.myform.phone_status.value="Thank you";
+		removeAlert("phone_alert");
+		approveSpan("phone_ok");
+		phone_ok = true;
+		return true;
+	}
+}
+
+var entered_password="_";
+
+function check_password(){	
+	var password = document.myform.password.value;
+	var r_password = document.myform.r_password.value;
+	
+	removeAlert("password_alert");
+	removeAlert("password_ok");
+	if(password.length<1)
+	{
+		//document.myform.r_password.disabled = true;
+		entered_password = "_";
+		alertSpan("password_alert","Please set password");
+		return false;
+	}
+	if(password.length<6 )
+	{
+		//document.myform.r_password.disabled = true;
+		entered_password = "_";
+		alertSpan("password_alert","too short");
+		return false;
+	}
+		
+	if( password.length > 10)
+	{
+		//document.myform.r_password.disabled = true;
+		entered_password = "_";
+		alertSpan("password_alert","too long");
+		return false;
+	}
+		//document.myform.r_password.disabled = false;
+	if(r_password.length>0)
+	{
+		//alert("check_match");
+		if(password != r_password){
+			password_ok = false;
+			alertSpan("r_password_alert", "Doesn't match");
+			return false;
+		}
+	}
+	entered_password = password;	
+	approveSpan("password_ok");
+	return true;
+
+	}
+
+function check_r_password(){
+	var r_password = document.myform.r_password.value;
+
+	removeAlert("r_password_alert");
+	removeAlert("r_password_ok");
+	if(entered_password == "_"){
+		alertSpan("password_alert", "Please set a valid password");	
+		document.myform.password.focus();
+		return false;
+	}
+
+	
+	}
+function check_password_match(){
+	var r_password = document.myform.r_password.value;
+	var password = document.myform.password.value;
+	removeAlert("r_password_alert");
+	removeAlert("r_password_ok");	
+
+if(entered_password != "_"){
+	if(r_password == password )
+	{
+		approveSpan("r_password_ok");
+		password_ok = true;
+		return true;
+	}
+	else {		
+		alertSpan("r_password_alert", "Doesn't match");	
+		password_ok = false;
+		return false;
+		}
+	}
+	else{
+		password_ok = false;
+		return false;
+		}
+}
+
+function submit_check(){
+	if (ln_ok == true && fn_ok == true && email_ok == true && password_ok == true && phone_ok == true)
+	{
+		alert("Register OK!");		
+	}
+	else
+	{
+		alert("Some fields have problem!");	
+	}
+}
+// Get the text from the textbox and provide feedback to user
+function msg_check() {
+	var text_string = document.myform.garbage.value;
+	alert('Your message \n'+text_string+'\nhas been submitted!\n Thank You.');
+}
+
+</script>
+</head>
+
+<body bgcolor="#eeeeff">
+
+<div align="left">
+<h1>Assignment #2 - Register</h1>
+
+<p/><b>Please fill in the following information:</b>
+
+<form name="myform">
+First name: <input type="text" name="fname" size="25" tabindex="1" onblur="check_firstName()"  />
+&nbsp;&nbsp; <span id="firstname_alert" class="alert"></span><span id="firstname_ok" class="ok"></span>
+Last name: <input type="text" name="lname" size="25" tabindex="2"  onblur="check_lastName()"  />
+&nbsp;&nbsp; <span class="alert" id="lastname_alert"></span><span id="lastname_ok"class="ok"></span><br />
+Email: <input type="text" name="email" size="22" tabindex="3" onblur="check_email()" />
+&nbsp;&nbsp; <span id="email_alert" class="alert"></span><span id="email_ok" class="ok"></span><br />
+<div class="hint" style="padding-left:50px">Your email will be used as login account</div><br/>
+Password: 
+<input type="password" name="password" size="16" tabindex="4" onblur="check_password()" />&nbsp;&nbsp; <span id="password_alert" class="alert"></span><span id="password_ok" class="ok"></span>
+&nbsp;&nbsp;Repeat password<input type="password" name="r_password" size="16" tabindex="5" onfocus="check_r_password()" onblur="check_password_match()" />
+&nbsp;&nbsp; <span id="r_password_alert" class="alert"></span><span id="r_password_ok" class="ok"></span><br />
+<div class="hint" style="padding-left:75px;">6-10 characters, number, and symbols</div><br/>
+
+
+Local Phone Number: 
+<input type="text" name="phone" size="16" tabindex="6" onblur="check_phone()" />
+&nbsp;&nbsp; <span id="phone_alert" class="alert"></span><span id="phone_ok" class="ok"></span><br />
+<div class="hint" style="padding-left:150px;"> e.g. 123-456-7890</div>
+<br />
+
+
+<p /><input type="button" value="Register" onClick="submit_check()" />
+</form>
+</div>
+</body>
+</html>

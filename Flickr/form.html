@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<title>Flickr on the Fly - Shaopeng Zhang</title>
+<head>
+  <style>
+  	img{ margin:8px; }
+	.size32{width:32px;height:32px;}
+	.size64{width:64px;height:64px; border: 4px #FFF solid;}
+	.size64:hover{ border:4px #F39 solid;}
+	.sizeh400{height:400px;}
+	.tagSpan{ font-size:20px; color:#03F;}	
+	.tagSpan:hover{ font-size:32px; color: #FFF; background-color:#03F; cursor:pointer; font-weight:bold; }
+	.tagSpanSelected{ font-size:20px; color: #FFF; background-color:#03F; cursor:pointer;}
+	#taghint{ color:#F39;}
+	.visible{ visibility:visible;}
+	.invisible{ visibility:hidden;}
+	
+	#context_tags{
+	width:1200px;
+	height:80px;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+	#tags{width:530px; height:100px; border:2px dashed gray; float:left; overflow:auto;}
+	#details{width:650px; height:100px; border:2px dashed gray; float:right;}
+	#images{width:530px; height:420px;overflow: auto; border: 1px solid black;float:left;}
+	#mediumView{width:650px; height:420px; border:2px dashed gray; float:right;}
+	#container{width:1200px; height:420px; margin:20px; }
+	#detailscontainer{width:1200px; height:100px; margin:20px;}
+	#title{font-size:16px; color:#03F;}
+	#user{font-size:16px; color:#03F;}
+	
+	
+  </style>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script>
+  
+  var timer_is_on = 0;
+  var array = new Array();
+var total_loaded =0;
+  
+  function doTimer()
+{
+if (!timer_is_on)
+  {
+  timer_is_on=1;
+  timedCount();
+  }
+}
+
+function timedCount()
+{if(timer_is_on == 1)
+{
+$(".size64").fadeTo(300,0.5);
+$("#images").animate({ scrollTop: $("#images").attr("scrollHeight") }, 1000, "linear", loadPhotos());
+
+t=setTimeout("timedCount()",3000);
+}
+
+
+}
+
+function dumpPhotos(){
+$(".size64").removeClass("size64").addClass("size32");
+	
+}
+
+function dumpAll(){
+$(".size64").remove();
+//$("#tags").empty();
+}
+
+var tagArray = new Array();
+function processTags(tagStr){
+	var tag;
+	if(tagStr ==""){return null;}
+	else{
+		var i =0;
+		tag = tagStr.slice(i,tagStr.indexOf(" ",i));
+//todo
+tagArray.push(tag);
+		}
+	}
+
+function loadPhotos()
+{
+$.getJSON("http://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=dbc006ce6b8ec8613c7efde226b1af50&per_page=6&extras=tags&format=json&jsoncallback=?",
+        function(data){
+			
+          $.each(data.photos.photo, function(i,item){
+			var tagStr = item.tags;
+			var user = item.username+'';
+			var title = item.title+'';
+			processTags(tagStr);
+			$("#tags").append(tagStr+ ' ');
+
+			var img1 = new Image();
+			var img_b = new Image();
+			var photoURLpart = 'http://farm' + item.farm + '.static.flickr.com/'  + item.server + '/'  + item.id + '_' + item.secret;
+		  var photoURL_s = photoURLpart + '_s.jpg';
+		  var photoURL_b = photoURLpart + '_d.jpg';
+		  $(img1).load(function(){
+		  	$(this).hide();
+			$(this).fadeIn();			
+		  }).attr("src",photoURL_s).addClass("size64").bind("click",function(){
+			  $("#mediumView").empty();
+			  $("#user").empty().append(user);
+			  $("#title").empty().append(title);
+				$(img_b).load().attr("src",photoURL_b).addClass("sizeh400").appendTo("#mediumView");
+				}).appendTo("#images");
+			
+				buffer();
+			
+            if ( i == 6 ) return false;
+          });
+        });
+}
+
+var clusterTag = new Array(3);
+
+function searchTag()
+{	
+dumpAll();
+$("#taghint").removeClass("invisible").addClass("visible");
+$("#context_tags").empty();
+	var tag = $("#tagText").val();
+	
+	var str3_1 = ''; //clusterTag[0];
+	var str3_2 = '';//clusterTag[1];
+	var	str3_3 = '';//clusterTag[2];
+	var cluster_id = str3_1 + '/' + str3_2 + '/' + str3_3;
+	
+	
+	var str ="http://api.flickr.com/services/rest/?method=flickr.tags.getClusterPhotos&api_key=dbc006ce6b8ec8613c7efde226b1af50&extras=owner_name&format=json&jsoncallback=?&tag=";
+	str = str + tag;
+	str = str + '&cluster_id=' + cluster_id;
+	$.getJSON(str, function(data)
+	{			
+          $.each(data.photos.photo, function(i,item)
+		  {
+			  var img1 = new Image();
+			  var img_b = new Image();
+			  var user = item.username+'';
+			var title = item.title+'';
+			  var photoURLpart = 'http://farm' + item.farm + '.static.flickr.com/'  + item.server + '/'  + item.id + '_' + item.secret;
+		  var photoURL_s = photoURLpart + '_s.jpg';
+		  var photoURL_b = photoURLpart + '_d.jpg';
+			 // $(img1).hide();
+			  $(img1).load(function()
+				{
+					$(this).hide();
+					$(this).fadeIn();
+					total_loaded = total_loaded +1;
+				}).attr("src",photoURL_s)
+			  		.addClass("size64").bind("click",function(){
+															  $("#mediumView").empty();
+															  $("#user").empty().append(user);
+															  $("#title").empty().append(title);
+															$(img_b).load().attr("src",photoURL_b).addClass("sizeh400").appendTo("#mediumView");
+															  })
+					.appendTo("#images");
+				//if ( i == 12 ) return false;
+          });
+     });
+	
+	var str2 = "http://api.flickr.com/services/rest/?method=flickr.tags.getClusters&api_key=dbc006ce6b8ec8613c7efde226b1af50&format=json&jsoncallback=?&tag=";
+	str2 = str2+tag;
+		
+//	$("#context_tags").append("test");
+	$.getJSON(str2, function(data){
+							 $("#context_tags").append();
+							 $.each(data.clusters.cluster, function(i,item){
+																	var tc='';
+																	$.each(item.tag,function(i,item){
+																							 tc=item._content;
+																							 var tagSpan = "<span class=\"tagSpan\">" + tc + ' ' + "</span>"
+																							 $("#context_tags").append(tagSpan);
+																							 });
+																   $(".tagSpan").bind("click",function(){
+																									   $("#tagText").val($(this).text());
+																									  // $("#tags").append($(this).text()+ ' ');
+																									   
+																									   });
+																   
+																   });
+							 });
+}
+
+
+
+function addContextTag(){
+	$(".tagSpanSelected").each(function(i,item){
+										
+										});
+	}
+$(document).ready(function(){
+				 loadPhotos();
+//$(".taghint").hide();
+				 });
+function keyupfunction(){}
+function addListener(){
+$(".size64").bind("click",function(){alert("click");});
+}
+
+function randomClicked(){
+	timer_is_on = 1 - timer_is_on;
+	if(timer_is_on == 1){
+		$("#randomButton").val("Stop");
+		timedCount();
+		}
+	else{
+		$("#randomButton").val("Fly !");
+		}
+	}
+function buffer(){
+	if($(".size64").size() > 24)
+	{
+	$(".size64").slice(0,$(".size64").size() - 24).remove();
+	}
+	}
+	
+	
+
+  </script>
+<title>Flickr on the Fly - Shaopeng Zhang</title></head>
+<body>
+<h1 style="margin-bottom:0px;"><span style="color:#03F">Flickr on the </span><span style="color:#F39">Fly</span></h1>
+<div style="color:#03F; margin-bottom:10px;">Click Fly to see photos uploaded to Flickr in last 2 seconds! Or, enter tags to search for photos.</div>
+<input type="button" id="randomButton" value="Fly !" onClick="randomClicked()">
+<input type="button" value="Dump !" onClick="dumpAll()">
+<input type="text" id= "tagText" name="tagText" value="" />
+<input type="button" id="searchButton" value="Search !" onClick="searchTag()">
+<div id="taghint" class="invisible">You might also want to see: </div><div id="context_tags"></div>
+	<div id="container">
+    <div id="images"></div>
+	<div id="mediumView"></div>
+    </div>
+    <div id="detailscontainer">
+    <div id="tags"></div>
+    <div id="details"><div id="title"></div><div id="user"></div></div>
+    </div>
+    <script>
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+
+
+function doeffect()
+{
+	$('#date').datepicker();
+
+}

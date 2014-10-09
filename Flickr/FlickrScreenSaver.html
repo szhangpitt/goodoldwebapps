@@ -1,0 +1,140 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Flickr Screen Saver</title>
+<style>
+img{ margin:0px; position:absolute;width:100%; height:auto; }
+#imageView{ width:100%;height:100%;position:relative;}
+#relative_wrapper{position:relative;}
+#loading{ text-align:center; font-family:Verdana, Geneva, sans-serif;}
+.transparent { opacity: 0;}
+.v{ visibility:visible;}
+.iv{ visibility:hidden;}
+.size64{width:64px;height:64px;}
+</style>
+
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+<script>
+  var timer_is_on = 0;
+  var timer;
+  var load_interval = 60000;
+  var photoArray1 = new Array();
+  var photoArray2 = new Array();
+  
+  $(document).ready(function(){
+  loadPhotos();
+  setTimeout("showNext()",5000);
+  setTimeout("bufferOut()",12000);
+  });
+  
+function triggerLoad(){
+	loadPhotos();
+	timer = setTimeout(triggerLoad(),2000);
+	}  
+  
+ 
+function loadPhotos(){
+var url="http://api.flickr.com/services/rest/?method=flickr.panda.getPhotos&panda_name=ling+ling&per_page=60&api_key=dbc006ce6b8ec8613c7efde226b1af50&format=json&&jsoncallback=?";
+$.getJSON(url, function(data){
+								//$(this).reverse();
+								load_interval = data.photos.interval * 1000;
+								//alert("interval="+load_interval);
+								$.each(data.photos.photo, function(i,item){
+
+									var img1 = new Image();
+									var photoId = item.id;
+									var photoURL;
+									
+									var restURL = "http://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=dbc006ce6b8ec8613c7efde226b1af50&format=json&jsoncallback=?&photo_id=" + photoId;
+										//var sURL="";
+										$.getJSON(restURL, function(data){
+											$.each(data.sizes.size, function(i,item)
+											{
+												if(item.label == "Large")
+												{
+													photoURL = item.source;	
+													$("#loading").fadeOut(5000);
+													$(img1).load(function(){
+
+                            //$(this).fadeIn(2000).fadeTo(3000, 1).fadeOut(2000);
+                            //setTimeout(function(){alert('I am displayed after 3 seconds!');}, 3000);
+                            photoArray1.push(img1);
+													})
+													//.hide()
+													.attr("src",photoURL);
+													//.appendTo("#imageView");
+												}
+											});
+										//return "NA";
+									});
+									
+									
+									if ( i == 20 ) return false;
+								});
+		  
+							});
+  setTimeout("loadPhotos()",load_interval);
+
+}
+
+function getStaticURL(id){
+var restURL = "http://api.flickr.com/services/rest/?method=flickr.photos.getSizes&api_key=9994b0052d2e69ddcde90a6dcfca9592&format=json&jsoncallback=?&photo_id=" + id;
+var sURL="";
+$.getJSON(restURL, function(data){
+	$.each(data.sizes.size, function(i,item)
+	{
+		if(item.label == "Large")
+		{
+		sURL = "http://farm4.static.flickr.com/3090/3146618074_e5b2389b6f_b.jpg";
+			return sURL;
+		}
+	});
+	return "NA";
+})
+
+}
+
+
+function showNext(){
+  var last_i=0;
+  var rand_i = Math.floor(Math.random()*photoArray1.length);
+  while(rand_i == last_i)
+  {
+    rand_i = Math.floor(Math.random()*photoArray1.length);
+  }
+  last_i = rand_i;
+  
+	var toShowImg=photoArray1[rand_i]; 
+	
+	$(toShowImg).hide();
+	
+	$("#imageView").append($(toShowImg));
+	$(toShowImg).fadeIn(2000).fadeTo(2000,1).fadeOut(2000);
+	setTimeout("showNext()", 4000);
+}
+
+function bufferOut()
+{
+  var l = photoArray1.length;
+  if(l>60)
+  {
+    for(i=0;i<l-60;i++)
+    {
+      photoArray1.shift();
+    }
+  }
+  setTimeout("bufferOut()",12000);
+}
+
+</script>
+
+</head>
+
+<body><div id="loading">loading...</div>
+<div id="relative_wrapper">
+<div id="imageView"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,453 @@
+[
+   {
+      "name":"Peter Brusilovsky",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":[
+         {
+            "interest":"human computer interaction"
+         },
+         {
+            "interest":"Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Sherry Koshman",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "interest":"human computer interaction"
+         },
+         {
+            "interest":"Information visualization"
+         }
+      ]
+   },
+   {
+      "name":"Mary K. Biagini",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "interest":"School /Children libraries"
+         },
+         {
+            "interest":"Learning Sciences and Technologies"
+         },
+         {
+            "interest":"Multi-media management"
+         }
+      ]
+   },
+   {
+      "name":"Geoffrey C. Bowker",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":[
+         {
+            "interest":"Information Organizing/metadata"
+         },
+         {
+            "interest":"Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Joseph Kabara",
+      "school":"University of Pittsburgh",
+      "program":"TELE"
+   },
+   {
+      "name":"Susan Alman",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "interest":"Learning Sciences and Technologies"
+         },
+         {
+            "interest":"E-economics"
+         }
+      ]
+   },
+   {
+      "name":"Leanne Bowler",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "interest":"School /Children libraries"
+         },
+         {
+            "interest":"human computer interaction"
+         },
+         {
+            "interest":"Health Informatics"
+         }
+      ]
+   },
+   {
+      "name":"Bernadette Callery ",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "interest":"Cultural Heritage related"
+         },
+         {
+            "interest":"Museum related"
+         },
+         {
+            "interest":"Archives/Records related"
+         }
+      ]
+   },
+   {
+      "name":"\nRichard J. Cox ",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "interest":"Cultural Heritage related"
+         },
+         {
+            "interest":"Archives/Records related"
+         }
+      ]
+   },
+   {
+      "name":"James D. \"Kip\" Currier",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":{
+         "interest":"Information Policy"
+      }
+   },
+   {
+      "name":"Anthony Debons",
+      "school":"University of Pittsburgh",
+      "program":"LIS"
+   },
+   {
+      "name":"Ellen Detlefsen ",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":{
+         "interest":"Health Informatics"
+      }
+   },
+   {
+      "name":"Marek Druzdzel",
+      "school":"University of Pittsburgh",
+      "program":"IS"
+   },
+   {
+      "name":"Roger R. Flynn",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":[
+         {
+            "interest":"Cognitive science"
+         },
+         {
+            "interest":"Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Daqing He",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":{
+         "interest":"Information Retrieving"
+      }
+   },
+   {
+      "name":"Stephen C. Hirtle",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":[
+         {
+            "interest":"Information visualization"
+         },
+         {
+            "interest":"Cognitive science"
+         }
+      ]
+   },
+   {
+      "name":"James B.D. Josh",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":{
+         "interest":"Information Security"
+      }
+   },
+   {
+      "name":"Carbo, Toni",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":{
+         "interest":"Information Policy"
+      }
+   },
+   {
+      "name":"Kimmel, Margaret Mary",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "interest":"Special libraries"
+         },
+         {
+            "interest":"Community informatics"
+         }
+      ]
+   },
+   {
+      "name":"Larsen, Ronald",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "interest":"Information Retrieving"
+         },
+         {
+            "interest":"Information visualization"
+         },
+         {
+            "interest":"human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Miller, Rush G.",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":{
+         "interest":"Academic & research libraries"
+      }
+   },
+   {
+      "name":"Oh, Jung Sun ",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "interest":"Information behavior (psychology-oriented)"
+         },
+         {
+            "interest":"Information Organizing/metadata"
+         },
+         {
+            "interest":"Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Ray, Glenn",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "interest":"Learning Sciences and Technologies"
+         },
+         {
+            "interest":"human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Star, Susan \"Leigh\" ",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "interest":"Social informatics"
+         },
+         {
+            "interest":"Information Organizing/metadata"
+         }
+      ]
+   },
+   {
+      "name":"Taylor, Arlene G.",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "interest":"Information Organizing/metadata"
+         },
+         {
+            "interest":"Bibliography /Documentation related"
+         }
+      ]
+   },
+   {
+      "name":"Tomer, Christinger ",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "interest":"human computer interaction"
+         },
+         {
+            "interest":"Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Karimi , Hassan",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":{
+         "interest":"Information visualization"
+      }
+   },
+   {
+      "name":"Kent, Alle",
+      "school":"University of Pittsburgh",
+      "program":"IS"
+   },
+   {
+      "name":"Lewis, Michael ",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":[
+         {
+            "interest":"Information visualization"
+         },
+         {
+            "interest":"human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Metzler, Douglas ",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":[
+         {
+            "interest":"Learning Sciences and Technologies"
+         },
+         {
+            "interest":"Intelligent systems"
+         }
+      ]
+   },
+   {
+      "name":"Munro, Paul ",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":{
+         "interest":"Cognitive science"
+      }
+   },
+   {
+      "name":"Perkoski, Robert R.",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":[
+         {
+            "interest":"Learning Sciences and Technologies"
+         },
+         {
+            "interest":"human computer interaction"
+         },
+         {
+            "interest":"E-economics"
+         }
+      ]
+   },
+   {
+      "name":"Regan, Bob",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":{
+         "interest":"Information visualization"
+      }
+   },
+   {
+      "name":"Spring, Michael B.",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":{
+         "interest":"E-economics"
+      }
+   },
+   {
+      "name":"Williams, James G.",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":[
+         {
+            "interest":"Intelligent systems"
+         },
+         {
+            "interest":"human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Zadorozhny, Vladimir",
+      "school":"University of Pittsburgh",
+      "program":"IS"
+   },
+   {
+      "name":"Kabara, Joseph",
+      "school":"University of Pittsburgh",
+      "program":"TELE"
+   },
+   {
+      "name":"Krishnamurthy, Prashant",
+      "school":"University of Pittsburgh",
+      "program":"TELE",
+      "interests":{
+         "interest":"Information Security"
+      }
+   },
+   {
+      "name":"Rezgui, Abdelmounaam ",
+      "school":"University of Pittsburgh",
+      "program":"TELE",
+      "interests":{
+         "interest":"Cultural Heritage related"
+      }
+   },
+   {
+      "name":"Thompson, Richard A.",
+      "school":"University of Pittsburgh",
+      "program":"TELE",
+      "interests":[
+         {
+            "interest":"Intelligent systems"
+         },
+         {
+            "interest":"human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Tipper, David ",
+      "school":"University of Pittsburgh",
+      "program":"TELE"
+   },
+   {
+      "name":"Weiss , Martin B.H.",
+      "school":"University of Pittsburgh",
+      "program":"TELE",
+      "interests":{
+         "interest":"Information Policy"
+      }
+   },
+   {
+      "name":"Znati, Taieb ",
+      "school":"University of Pittsburgh",
+      "program":"TELE",
+      "interests":{
+         "interest":"Multi-media management"
+      }
+   }
+]

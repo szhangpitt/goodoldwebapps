@@ -1,0 +1,8024 @@
+[
+   {
+      "name":"Jamie Callan",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Earl Crane",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"Laura Dabbish",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":{
+         "Information Organizing, metadata"
+      }
+   },
+   {
+      "name":"Markus De Shon",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"Artur Dubrawski",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "intelligent systems"
+         }
+      ]
+   },
+   {
+      "name":"Riaz Esmailzadeh",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":{
+         "E-economics (E-commerce)"
+      }
+   },
+   {
+      "name":"Danny Fernandes",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Wilpen Gorr",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":{
+         "Data management (Database)"
+      }
+   },
+   {
+      "name":"William Guttman",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"Gary Kaplan",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "Information Policy ,  Law"
+         }
+      ]
+   },
+   {
+      "name":"Lorna Kearns",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Yasir Khalifa",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":[
+         {
+            "intelligent systems"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Pawan Khera",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":{
+         "E-economics (E-commerce)"
+      }
+   },
+   {
+      "name":"David Krackhardt",
+      "school":"CMU",
+      "program":"CMU"
+   },
+   {
+      "name":"Ramayya Krishnan",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "E-economics (E-commerce)"
+         }
+      ]
+   },
+   {
+      "name":"Kristen Kurland",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Chris Labash",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":[
+         {
+            "E-economics (E-commerce)"
+         },
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Martin Lindner",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"Michael McCarthy",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Daniel Neill",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":[
+         {
+            "intelligent systems"
+         },
+         {
+            "Information Retrieving"
+         }
+      ]
+   },
+   {
+      "name":"Greg Porter",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"John Shantz",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":{
+         "Data management (Database)"
+      }
+   },
+   {
+      "name":"Anna Shilabeer",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":[
+         {
+            "Data management (Database)"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Tim Shimeall",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Sarah Spiekermann",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":{
+         "E-economics (E-commerce)"
+      }
+   },
+   {
+      "name":"Latanya Sweeney",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":[
+         {
+            "intelligent systems"
+         },
+         {
+            "Information visualization"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Rahul Telang",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "E-economics (E-commerce)"
+         }
+      ]
+   },
+   {
+      "name":"Murlikrishnam Viswanathan",
+      "school":"CMU",
+      "program":"CMU"
+   },
+   {
+      "name":"Mark Wessel",
+      "school":"CMU",
+      "program":"CMU",
+      "interests":{
+         "E-economics (E-commerce)"
+      }
+   },
+   {
+      "name":"Denise Agosto",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":[
+         {
+            "School , Children libraries"
+         },
+         {
+            "Information resources & Services"
+         }
+      ]
+   },
+   {
+      "name":"Robert Allen",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Yuan An",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Michael Atwood",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "intelligent systems"
+         }
+      ]
+   },
+   {
+      "name":"Glenn Booker",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"Toni Carbo",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "Information Policy ,  Law"
+      }
+   },
+   {
+      "name":"Chaomi Chen",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Catherine Collins",
+      "school":"Drexel",
+      "program":"Drexel"
+   },
+   {
+      "name":"Susan Davis",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"Behinha De Abreu",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Martin Donaldson",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"M. Carl Drott",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"David Fenske",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "Digital libraries"
+      }
+   },
+   {
+      "name":"Andrea Forte",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Susan gasson",
+      "school":"Drexel",
+      "program":"Drexel"
+   },
+   {
+      "name":"Sean Groggins",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "Information Retrieving"
+      }
+   },
+   {
+      "name":"Peter Grillo",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "Data management (Database)"
+      }
+   },
+   {
+      "name":"John Hall",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "Archives, Records related"
+      }
+   },
+   {
+      "name":"Gregory Hislop",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "Archives, Records related"
+      }
+   },
+   {
+      "name":"Xiaohua Tony",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Michael Khoo",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Lee Leitner",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"Alison M. Lewis",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "Information Policy ,  Law"
+      }
+   },
+   {
+      "name":"Jiexun Jason Li",
+      "school":"Drexel",
+      "program":"Drexel"
+   },
+   {
+      "name":"Xia Lin",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "Digital libraries"
+      }
+   },
+   {
+      "name":"Jacquiline Mancall",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "Archives, Records related"
+      }
+   },
+   {
+      "name":"Linda marion",
+      "school":"Drexel",
+      "program":"Drexel"
+   },
+   {
+      "name":"Delia Neuman",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "school, children libraries"
+      }
+   },
+   {
+      "name":"Jung-ran Park",
+      "school":"Drexel",
+      "program":"Drexel"
+   },
+   {
+      "name":"Jennifer Rode",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Thomas Smith",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Il-Yeol Song",
+      "school":"Drexel",
+      "program":"Drexel"
+   },
+   {
+      "name":"Gerry Stahl",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Deborah Turner",
+      "school":"Drexel",
+      "program":"Drexel"
+   },
+   {
+      "name":"Rosina Weber",
+      "school":"Drexel",
+      "program":"Drexel"
+   },
+   {
+      "name":"Howard D. White",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Susan Weidenbeck",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Christopher Yang",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "Information Security"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "human computer interaction"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Valerie Ann Yonker",
+      "school":"Drexel",
+      "program":"Drexel",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+      {
+      "name":"Gary Burnette",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Kathleen Burnette",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Sabah Currim",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Information Policy ,  Law"
+         },
+         {
+            "Information Retrieving"
+         }
+      ]
+   },
+   {
+      "name":"Cheryl Dee",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":{
+         "Information behavior (psychology-oriented)"
+      }
+   },
+   {
+      "name":"Pamala Doffek",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":{
+         "Digital libraries"
+      }
+   },
+   {
+      "name":"Ian Douglas",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Nancy Everhart",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Leila Gibradze",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Learning Sciences and Technologies"
+         }
+      ]
+   },
+   {
+      "name":"Melissa Gross",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "Information behavior (psychology-oriented)"
+         }
+      ]
+   },
+   {
+      "name":"Chris Hinnant",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "Information Policy ,  Law"
+         }
+      ]
+   },
+   {
+      "name":"Corinne Jorgensen",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "Information behavior (psychology-oriented)"
+         }
+      ]
+   },
+   {
+      "name":"Peter Jorgensen",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Michelle Kazmer",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Kyung Kim",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Christie Koontz",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "Information Policy ,  Law"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Don Latham",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "School , Children libraries"
+         },
+         {
+            "Learning Sciences and Technologies"
+         }
+      ]
+   },
+   {
+      "name":"Mia Liza lustria",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "Learning Sciences and Technologies"
+         }
+      ]
+   },
+   {
+      "name":"Marcia Mardis",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "School , Children libraries"
+         },
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Paul Marty",
+      "school":"Florida State",
+      "program":"Florida State"
+   },
+   {
+      "name":"Charles Maclure",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":{
+         "Digital libraries"
+      }
+   },
+   {
+      "name":"Lorri Mon",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "human computer interaction"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Ebrahim Randeree",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "Information Policy ,  Law"
+         }
+      ]
+   },
+   {
+      "name":"Melissa Raulston",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "Learning Sciences and Technologies"
+         }
+      ]
+   },
+   {
+      "name":"Besiki Stvilia",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Lisa Tripp",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":[
+         {
+            "School , Children libraries"
+         },
+         {
+            "Learning Sciences and Technologies"
+         }
+      ]
+   },
+   {
+      "name":"Wayne Wiegand",
+      "school":"Florida State",
+      "program":"Florida State",
+      "interests":{
+         "Information behavior (psychology-oriented)"
+      }
+   },
+   {
+      "name":"Alberto Apostolico",
+      "school":"Georgia Institute of Technology",
+      "program":"Computational Science and Engineering",
+      "interests":{
+         "Intelligent Systems"
+      }
+   },
+   {
+      "name":"David A. Bader",
+      "school":"Georgia Institute of Technology",
+      "program":"Computational Science and Engineering",
+      "interests":{
+         "Intelligent Systems"
+      }
+   },
+   {
+      "name":"George Biros",
+      "school":"Georgia Institute of Technology",
+      "program":"Computational Science and Engineering",
+      "interests":[
+         {
+            "information retrieval"
+         },
+         {
+            "Intelligent Systems"
+         },
+         {
+            "Cognitive Science"
+         },
+         {
+            "informatics"
+         }
+      ]
+   },
+   {
+      "name":"Richard Fujimoto",
+      "school":"Georgia Institute of Technology",
+      "program":"Computational Science and Engineering",
+      "interests":{
+         "Intelligent Systems"
+      }
+   },
+   {
+      "name":"Alexander Gray",
+      "school":"Georgia Institute of Technology",
+      "program":"Computational Science and Engineering",
+      "interests":{
+         "Cognitive Science"
+      }
+   },
+   {
+      "name":"Guy Lebanon",
+      "school":"Georgia Institute of Technology",
+      "program":"Computational Science and Engineering",
+      "interests":{
+         "Cognitive Science"
+      }
+   },
+   {
+      "name":"Haesun Park",
+      "school":"Georgia Institute of Technology",
+      "program":"Computational Science and Engineering",
+      "interests":[
+         {
+            "information retrieval"
+         },
+         {
+            "informatics"
+         }
+      ]
+   },
+   {
+      "name":"C. David Sherrill",
+      "school":"Georgia Institute of Technology",
+      "program":"Computational Science and Engineering"
+   },
+   {
+      "name":"Richard Vuduc",
+      "school":"Georgia Institute of Technology",
+      "program":"Computational Science and Engineering",
+      "interests":{
+         "Intelligent Systems"
+      }
+   },
+   {
+      "name":"Honguan Zha",
+      "school":"Georgia Institute of Technology",
+      "program":"Computational Science and Engineering",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Mustaque Ahamad",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Mostafa Ammar",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Maria Balcan",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Alexandra Boldyreva",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science",
+      "interests":{
+         "information security"
+      }
+   },
+   {
+      "name":"Nathan Clark",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science",
+      "interests":[
+         {
+            "intelligent systems"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Thomas Conte",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Richard DeMillo",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Constantine Dovrolis",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Nick Feamster",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science",
+      "interests":{
+         "telecommunication"
+      }
+   },
+   {
+      "name":"Merrick Furst",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Jonathon Giffin",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Seymour Goodman",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Mary Jean Harrold",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Hyesoon Kim",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Wenke Lee",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Richard Lipton",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Ling Liu",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science",
+      "interests":[
+         {
+            "intelligent systems"
+         },
+         {
+            "data management (databases)"
+         }
+      ]
+   },
+   {
+      "name":"Gabriel Loh",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Leo Mark",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science",
+      "interests":{
+         "data management (databases)"
+      }
+   },
+   {
+      "name":"Milenna Mihail",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Shamkant Navathe",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science",
+      "interests":{
+         "data management (databases)"
+      }
+   },
+   {
+      "name":"Edward Omiecinski",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science",
+      "interests":{
+         "data management (databases)"
+      }
+   },
+   {
+      "name":"Alessandro Orso",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Santash Pande",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Chris Peikert",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Milos Prvulovic",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Calton Pu",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science",
+      "interests":{
+         "data management (databases)"
+      }
+   },
+   {
+      "name":"Prasad Raghavendra",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Umakishore Rhamachandran",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Dana Randall",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"William Rouse",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Karsten Schwan",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Prasad Tetali",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Patrick Traynor",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Vijay Vazirani",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Santosh Vampala",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"H. Venkateswaran",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Eric Vigoda",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Jun Xu",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Ellen Zegura",
+      "school":"Georgia Institute of Technology",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Gregory Abowd",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing",
+      "interests":{
+         "cognitive science, HCI"
+      }
+   },
+   {
+      "name":"Ronald Arkin",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"Tucker Balch",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"Michael Best",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing",
+      "interests":{
+         "information visualization"
+      }
+   },
+   {
+      "name":"Aaron Bobick",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"Mark Braunstein",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"Amy Bruckman",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing",
+      "interests":[
+         {
+            "social computing related"
+         },
+         {
+            "cognitive science, HCI"
+         },
+         {
+            "learning sciences and technologies"
+         }
+      ]
+   },
+   {
+      "name":"Richard Catrambone",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"Henrik Christensen",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"Frank Dellaert",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"Ellen Do",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"Charles Eastman",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"Imme Ebert-Uphoff",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"Keith Edwards",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing",
+      "interests":{
+         "cognitive science, HCI"
+      }
+   },
+   {
+      "name":"Irfan Essa",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"James Foley",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"Ashok Goel",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing",
+      "interests":{
+         "cognitive science, HCI"
+      }
+   },
+   {
+      "name":"Beki Grinter",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing",
+      "interests":{
+         "cognitive science, HCI"
+      }
+   },
+   {
+      "name":"Mark Guzdial",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing",
+      "interests":{
+         "cognitive science, HCI"
+      }
+   },
+   {
+      "name":"Charles Isbell Jr.",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing",
+      "interests":{
+         "cognitive science"
+      }
+   },
+   {
+      "name":"Melody Jackson",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"Janet Kolodner",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing",
+      "interests":{
+         "cognitive science, HCI"
+      }
+   },
+   {
+      "name":"Karen Liu",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing",
+      "interests":{
+         "information visualization"
+      }
+   },
+   {
+      "name":"Blair Macintyre",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing",
+      "interests":[
+         {
+            "cognitive scinece"
+         },
+         {
+            "cognitive science, HCI"
+         }
+      ]
+   },
+   {
+      "name":"Elizabeth Mynatt",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing",
+      "interests":{
+         "cognitive science, HCI"
+      }
+   },
+   {
+      "name":"Colin Potts",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"Ashwin Ram",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"Mark Riedl",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"Jarek Rossignac",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing",
+      "interests":{
+         "information visualization"
+      }
+   },
+   {
+      "name":"Thad Starner",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing",
+      "interests":[
+         {
+            "cognitive science, HCI"
+         },
+         {
+            "cognitive science"
+         }
+      ]
+   },
+   {
+      "name":"John Stasko",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing",
+      "interests":{
+         "information visualization"
+      }
+   },
+   {
+      "name":"Andrew Thomaz",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing"
+   },
+   {
+      "name":"Greg Turk",
+      "school":"Georgia Institute of Technology",
+      "program":"Interactive Computing",
+      "interests":{
+         "information visualization"
+      }
+   },
+      {
+      "name":"Mark Aakhus",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Information behavior (psychology-oriented)"
+         }
+      ]
+   },
+   {
+      "name":"Jeffrey Boase",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC"
+   },
+   {
+      "name":"Galina Bolden",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC",
+      "interests":{
+         "Cognitive science"
+      }
+   },
+   {
+      "name":"Marya L. Doerfel",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC"
+   },
+   {
+      "name":"Gustav Friedrich",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC"
+   },
+   {
+      "name":"Jennifer Gibbs",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC",
+      "interests":{
+         "Academic & research libraries"
+      }
+   },
+   {
+      "name":"Kathryn Greene",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC",
+      "interests":{
+         "Information resources & Services"
+      }
+   },
+   {
+      "name":"James Katz",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC"
+   },
+   {
+      "name":"Vikki Katz",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC"
+   },
+   {
+      "name":"Hui-Min Kuo",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC",
+      "interests":{
+         "Academic & research libraries"
+      }
+   },
+   {
+      "name":"Laurie Lewis",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC",
+      "interests":{
+         "Academic & research libraries"
+      }
+   },
+   {
+      "name":"Jenny Mandelbaum",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Cognitive science"
+         },
+         {
+            "Academic & research libraries"
+         }
+      ]
+   },
+   {
+      "name":"Hartmut B. Mokros",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Academic & research libraries"
+         }
+      ]
+   },
+   {
+      "name":"Brent Ruben",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC",
+      "interests":{
+         "Academic & research libraries"
+      }
+   },
+   {
+      "name":"Jorge Reina Schement",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC",
+      "interests":{
+         "Cognitive science"
+      }
+   },
+   {
+      "name":"Craig R. Scott",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC",
+      "interests":{
+         "Academic & research libraries"
+      }
+   },
+   {
+      "name":"Lea P. Stewart",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information resources & Services"
+         },
+         {
+            "Information Policy"
+         },
+         {
+            "Academic & research libraries"
+         }
+      ]
+   },
+   {
+      "name":"Jennifer Theiss",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC",
+      "interests":{
+         "Cognitive science"
+      }
+   },
+   {
+      "name":"Jennifer Warren",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC"
+   },
+   {
+      "name":"Itzhak Yanovitzky",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information resources & Services"
+         },
+         {
+            "Academic & research libraries"
+         }
+      ]
+   },
+   {
+      "name":"Nicholas J. Belkin",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "Information Retrieving"
+         }
+      ]
+   },
+   {
+      "name":"Kay Cassell",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS"
+   },
+   {
+      "name":"Marija Dalbello",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS",
+      "interests":[
+         {
+            "Archives, Records related"
+         },
+         {
+            "Academic & research libraries"
+         }
+      ]
+   },
+   {
+      "name":"Carol Ann Gordon",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS"
+   },
+   {
+      "name":"Jacek Gwizdka",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "Information behavior (psychology-oriented)"
+         }
+      ]
+   },
+   {
+      "name":"A. Waller Hastings",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS",
+      "interests":{
+         "School , Children libraries"
+      }
+   },
+   {
+      "name":"Paul Kantor",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS"
+   },
+   {
+      "name":"Michael Lesk",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS"
+   },
+   {
+      "name":"Ya-Ling Lu",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS"
+   },
+   {
+      "name":"Claire R. McInerney",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS",
+      "interests":{
+         "Academic & research libraries"
+      }
+   },
+   {
+      "name":"Stewart Mohr",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS",
+      "interests":{
+         "Data management (Database)"
+      }
+   },
+   {
+      "name":"Smaranda Muresan",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS",
+      "interests":{
+         "Digital libraries"
+      }
+   },
+   {
+      "name":"Mor Naaman",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Digital libraries"
+         },
+         {
+            "Cognitive science"
+         }
+      ]
+   },
+
+
+
+
+
+   {
+      "name":"Lilia Pavlovsky",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "human computer interaction"
+         },
+         {
+            "Digital libraries"
+         },
+         {
+            "Cognitive science"
+         }
+      ]
+   },
+   {
+      "name":"Marie L. Radford",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS",
+      "interests":{
+         "Academic & research libraries"
+      }
+   },
+   {
+      "name":"Joe Sanchez",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS",
+      "interests":{
+         "Digital libraries"
+      }
+   },
+   {
+      "name":"Tefko Saracevic",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS"
+   },
+   {
+      "name":"Anselm Spoerri",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS"
+   },
+   {
+      "name":"Ross J Todd",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS"
+   },
+   {
+      "name":"Jana Varlejs",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS"
+   },
+   {
+      "name":"Nina Wacholder",
+      "school":"Rutgers, The Sate University of New Jersey, School of Communication and Information",
+      "program":"LIS",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Cognitive science"
+         }
+      ]
+   },
+{
+      "name":"Stefan Gradman",
+      "school":"Humboldt-Universitat zu Berlin",
+      "program":"LIS",
+      "interests":{
+         "knowledge management"
+      }
+   },
+   {
+      "name":"Vivien Petras",
+      "school":"Humboldt-Universitat zu Berlin",
+      "program":"LIS",
+      "interests":{
+         "information retrieval"
+      }
+   },
+   {
+      "name":"Peter Schirmbacher",
+      "school":"Humboldt-Universitat zu Berlin",
+      "program":"LIS",
+      "interests":[
+         {
+            "telecommunication"
+         },
+         {
+            "knowledge management"
+         }
+      ]
+   },
+   {
+      "name":"Michael Seadle",
+      "school":"Humboldt-Universitat zu Berlin",
+      "program":"LIS",
+      "interests":[
+         {
+            "academic & research libraries"
+         },
+         {
+            "digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Konrad Umlaf",
+      "school":"Humboldt-Universitat zu Berlin",
+      "program":"LIS",
+      "interests":{
+         "public libraries"
+      }
+   },
+{
+      "name":"Amal Ahmed",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":[
+         {
+            "information security"
+         },
+         {
+            "HCI"
+         }
+      ]
+   },
+   {
+      "name":"Mu-Hyun Baik",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "informatics"
+      }
+   },
+   {
+      "name":"Shaowen Bardzell",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "HCI"
+      }
+   },
+   {
+      "name":"Jeffrey Bardzell",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "HCI"
+      }
+   },
+   {
+      "name":"Randal Beer",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Eli Blevis",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "HCI"
+      }
+   },
+   {
+      "name":"Johan Bollen",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Randal Bramley",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Geoffrey Brown",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "cognitive science"
+      }
+   },
+   {
+      "name":"L. Jean Camp",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":[
+         {
+            "information security"
+         },
+         {
+            "community informatics"
+         }
+      ]
+   },
+   {
+      "name":"Arun Chauhan",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":[
+         {
+            "intelligent systems"
+         },
+         {
+            "HCI"
+         }
+      ]
+   },
+   {
+      "name":"Kay Connelly",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Mehmet Dalkilic",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":[
+         {
+            "informatics"
+         },
+         {
+            "data management"
+         }
+      ]
+   },
+   {
+      "name":"Michael Dunn",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "cognitive science"
+      }
+   },
+   {
+      "name":"R. Kent Dybvig",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "HCI"
+      }
+   },
+   {
+      "name":"Allesandro Flammini",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Geoffrey Charles Fox",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Daniel P. Friedman",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "HCI"
+      }
+   },
+   {
+      "name":"Dennis Gannon",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Michael E. Gasser",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "Cognitive science"
+      }
+   },
+   {
+      "name":"Dennis P. Groth",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "data management"
+      }
+   },
+   {
+      "name":"Minaxi Gupta",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "information security"
+      }
+   },
+   {
+      "name":"Esfandiar Haghverdi",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":[
+         {
+            "cognitive science"
+         },
+         {
+            "informatics"
+         }
+      ]
+   },
+   {
+      "name":"Stanley A. Hagstrom",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Matthew Hahn",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "informatics"
+      }
+   },
+   {
+      "name":"David Hakken",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "community informatics"
+      }
+   },
+   {
+      "name":"Andrew Hanson",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "information visualization"
+      }
+   },
+   {
+      "name":"Kris Hauser",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":[
+         {
+            "cognitive science"
+         },
+         {
+            "Cognitive science"
+         }
+      ]
+   },
+   {
+      "name":"Christopher T. Haynes",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "HCI"
+      }
+   },
+   {
+      "name":"Raquel Hill",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "information security"
+      }
+   },
+   {
+      "name":"Douglas Hofstadter",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "Cognitive science"
+      }
+   },
+   {
+      "name":"Steven D. Johnson",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":[
+         {
+            "cognitive science"
+         },
+         {
+            "HCI"
+         }
+      ]
+   },
+   {
+      "name":"Apu Kapadia",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "information security"
+      }
+   },
+   {
+      "name":"Sun Kim",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":[
+         {
+            "informatics"
+         },
+         {
+            "data management"
+         }
+      ]
+   },
+   {
+      "name":"David Leake",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "Cognitive science"
+      }
+   },
+   {
+      "name":"Daniel Leivant",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":[
+         {
+            "cognitive science"
+         },
+         {
+            "HCI"
+         }
+      ]
+   },
+   {
+      "name":"Andrew Lumsdaine",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Michael McRobbie",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics"
+   },
+   {
+      "name":"Eden Medina",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "community informatics"
+      }
+   },
+   {
+      "name":"Filippo Menczer",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":[
+         {
+            "Cognitive science"
+         },
+         {
+            "intelligent systems"
+         },
+         {
+            "data management"
+         }
+      ]
+   },
+   {
+      "name":"Jonathan W. Mills",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "cognitive science"
+      }
+   },
+   {
+      "name":"Steven Myers",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":[
+         {
+            "cognitive science"
+         },
+         {
+            "information security"
+         }
+      ]
+   },
+   {
+      "name":"Christine Ogan",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics"
+   },
+   {
+      "name":"John Paolillo",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":[
+         {
+            "intelligent systems"
+         },
+         {
+            "information resources and services"
+         },
+         {
+            "digital libraries"
+         },
+         {
+            "learning sciences and technologies"
+         },
+         {
+            "community informatics"
+         }
+      ]
+   },
+   {
+      "name":"Beth Plale",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":[
+         {
+            "intelligent systems"
+         },
+         {
+            "data management"
+         }
+      ]
+   },
+   {
+      "name":"Paul w. Purdom",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":[
+         {
+            "data management"
+         },
+         {
+            "cognitive science"
+         }
+      ]
+   },
+   {
+      "name":"Predrag Radivodrac",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "informatics"
+      }
+   },
+   {
+      "name":"Christopher Raphael",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "informatics"
+      }
+   },
+   {
+      "name":"Gregory Rawlins",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":[
+         {
+            "intelligent systems"
+         },
+         {
+            "community informatics"
+         },
+         {
+            "cognitive science"
+         }
+      ]
+   },
+   {
+      "name":"Edward Robertson",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":[
+         {
+            "data management"
+         },
+         {
+            "cognitive science"
+         }
+      ]
+   },
+   {
+      "name":"Luis Rocha",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Selma Sebanovic",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "community informatics"
+      }
+   },
+   {
+      "name":"Amr Sabry",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":[
+         {
+            "cognitive science"
+         },
+         {
+            "HCI"
+         }
+      ]
+   },
+   {
+      "name":"Matthias Scheutz",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":[
+         {
+            "intelligent systems"
+         },
+         {
+            "cognitive science"
+         },
+         {
+            "Cognitive science"
+         }
+      ]
+   },
+   {
+      "name":"Robert B. Schnabel",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science"
+   },
+   {
+      "name":"Kalpana Shankar",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "community informatics"
+      }
+   },
+   {
+      "name":"Martin Siegel",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "HCI"
+      }
+   },
+   {
+      "name":"Erik Stolterman",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "HCI"
+      }
+   },
+   {
+      "name":"Haixu Tang",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "informatics"
+      }
+   },
+   {
+      "name":"Peter Todd",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Dirk Van Gucht",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":[
+         {
+            "data management"
+         },
+         {
+            "cognitive science"
+         }
+      ]
+   },
+   {
+      "name":"Allesandro Vespignani",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"XiaoFeng Wang",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "information security"
+      }
+   },
+   {
+      "name":"David Wild",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "informatics"
+      }
+   },
+   {
+      "name":"Yuqing (Melanie) Wu",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Computer Science",
+      "interests":{
+         "data management"
+      }
+   },
+   {
+      "name":"Larry Yaeger",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Yuzhen Ye",
+      "school":"Indiana University- School of Informatics and Computing",
+      "program":"Informatics",
+      "interests":{
+         "informatics"
+      }
+   },
+   {
+      "name":"Philip C. Bantin",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS"
+   },
+   {
+      "name":"Katy Borner",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "learning sciences and technologies"
+         },
+         {
+            "information resources and services"
+         },
+         {
+            "community informatics"
+         }
+      ]
+   },
+   {
+      "name":"Blaise Cronin",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "information resources and services"
+         },
+         {
+            "data management"
+         }
+      ]
+   },
+   {
+      "name":"Ronald E. Day",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "public, academic libraries"
+         },
+         {
+            "information resources and services"
+         },
+         {
+            "digital libraries"
+         },
+         {
+            "data management"
+         },
+         {
+            "community informatics"
+         }
+      ]
+   },
+   {
+      "name":"Ying Ding",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "digital libraries"
+         },
+         {
+            "learning sciences and technologies"
+         }
+      ]
+   },
+   {
+      "name":"Hamid Ekbia",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "learning sciences and technologies"
+         },
+         {
+            "information resources and services"
+         },
+         {
+            "community informatics"
+         }
+      ]
+   },
+   {
+      "name":"Noriko Hara",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "data management"
+         },
+         {
+            "community informatics"
+         }
+      ]
+   },
+   {
+      "name":"Susan C. Herring",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "information resources and services"
+         },
+         {
+            "digital libraries"
+         },
+         {
+            "community informatics"
+         }
+      ]
+   },
+   {
+      "name":"Elin K. Jacob",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "learning sciences and technologies"
+         },
+         {
+            "information resources and services"
+         }
+      ]
+   },
+   {
+      "name":" Sta?a Milojevi?",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS"
+   },
+   {
+      "name":"John Paolillo",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "intelligent systems"
+         },
+         {
+            "learning sciences and technologies"
+         },
+         {
+            "information resources and services"
+         },
+         {
+            "digital libraries"
+         },
+         {
+            "community informatics"
+         }
+      ]
+   },
+   {
+      "name":"Taemin Kim Park",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS"
+   },
+   {
+      "name":"Alice R. Robbin",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "information resources and services"
+         },
+         {
+            "data management"
+         },
+         {
+            "community informatics"
+         }
+      ]
+   },
+   {
+      "name":"Howard Rosenbaum",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "information resources and services"
+         },
+         {
+            "digital libraries"
+         },
+         {
+            "data management"
+         },
+         {
+            "community informatics"
+         }
+      ]
+   },
+   {
+      "name":"Pnina Schachaf",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "public, academic libraries"
+         },
+         {
+            "information resources and services"
+         },
+         {
+            "digital libraries"
+         },
+         {
+            "data management"
+         },
+         {
+            "community informatics"
+         }
+      ]
+   },
+   {
+      "name":"Debora Shaw",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":{
+         "information resources and services"
+      }
+   },
+   {
+      "name":"Joel B. Silver",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS"
+   },
+   {
+      "name":"Cassidy R. Sugimoto",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS"
+   },
+   {
+      "name":"John A. Walsh",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "learning sciences and technologies"
+         },
+         {
+            "digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Kiduk Yang",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "learning sciences and technologies"
+         },
+         {
+            "information resources and services"
+         },
+         {
+            "digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Barbara Albee",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS"
+   },
+   {
+      "name":"Rachel Applegate",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "public, academic libraries"
+         },
+         {
+            "information resources and services"
+         }
+      ]
+   },
+   {
+      "name":"Hsing-liang Chen",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "learning sciences and technologies"
+         },
+         {
+            "digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Marilyn M. Irwin",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":{
+         "public, academic libraries"
+      }
+   },
+   {
+      "name":"Andrea Japzon",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "public, academic libraries"
+         },
+         {
+            "information resources and services"
+         },
+         {
+            "data management"
+         },
+         {
+            "community informatics"
+         }
+      ]
+   },
+   {
+      "name":"Annette Lamb",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS"
+   },
+   {
+      "name":"Jean L. Preer",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "public, academic libraries"
+         },
+         {
+            "community informatics"
+         }
+      ]
+   },
+   {
+      "name":"Katherine Schilling",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS",
+      "interests":[
+         {
+            "public, academic libraries"
+         },
+         {
+            "information resources and services"
+         }
+      ]
+   },
+   {
+      "name":"Jingfen Xia",
+      "school":"Indiana University School of Library and Information Science",
+      "program":"LIS"
+   },
+   {
+      "name":"Joan Bartlett",
+      "school":"LIS",
+      "program":"McGill University",
+      "interests":[
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "Health Informatics"
+         },
+         {
+            "Learning Sciences and Technologies"
+         }
+      ]
+   },
+   {
+      "name":"Jamshid Beheshti",
+      "school":"LIS",
+      "program":"McGill University",
+      "interests":[
+         {
+            "Multi-media management"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"France Bouthillier",
+      "school":"LIS",
+      "program":"McGill University",
+      "interests":[
+         {
+            "Social informatics"
+         },
+         {
+            "Information resources & Services"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Kimiz Dalkir",
+      "school":"LIS",
+      "program":"McGill University",
+      "interests":[
+         {
+            "Multi-media management"
+         },
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Digital libraries"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Catherine Guastavino",
+      "school":"LIS",
+      "program":"McGill University",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Andrew Large",
+      "school":"LIS",
+      "program":"McGill University",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Peter McNally",
+      "school":"LIS",
+      "program":"McGill University",
+      "interests":{
+         "Cultural Heritage related"
+      }
+   },
+   {
+      "name":"Elaine Menard",
+      "school":"LIS",
+      "program":"McGill University",
+      "interests":[
+         {
+            "Multi-media management"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Eun Park",
+      "school":"LIS",
+      "program":"McGill University",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Digital libraries"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"Peter Brusilovsky",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Sherry Koshman",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Information visualization"
+         }
+      ]
+   },
+   {
+      "name":"Mary K. Biagini",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "School , Children libraries"
+         },
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Multi-media management"
+         }
+      ]
+   },
+   {
+      "name":"Geoffrey C. Bowker",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Joseph Kabara",
+      "school":"University of Pittsburgh",
+      "program":"TELE"
+   },
+   {
+      "name":"Susan Alman",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "E-economics"
+         }
+      ]
+   },
+   {
+      "name":"Leanne Bowler",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "School , Children libraries"
+         },
+         {
+            "human computer interaction"
+         },
+         {
+            "Health Informatics"
+         }
+      ]
+   },
+   {
+      "name":"Bernadette Callery ",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "Cultural Heritage related"
+         },
+         {
+            "Museum related"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"Richard J. Cox ",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "Cultural Heritage related"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"James D. \"Kip\" Currier",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":{
+         "Information Policy"
+      }
+   },
+   {
+      "name":"Anthony Debons",
+      "school":"University of Pittsburgh",
+      "program":"LIS"
+   },
+   {
+      "name":"Ellen Detlefsen ",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":{
+         "Health Informatics"
+      }
+   },
+   {
+      "name":"Marek Druzdzel",
+      "school":"University of Pittsburgh",
+      "program":"IS"
+   },
+   {
+      "name":"Roger R. Flynn",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":[
+         {
+            "Cognitive science"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Daqing He",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":{
+         "Information Retrieving"
+      }
+   },
+   {
+      "name":"Stephen C. Hirtle",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "Cognitive science"
+         }
+      ]
+   },
+   {
+      "name":"James B.D. Josh",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"Carbo, Toni",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":{
+         "Information Policy"
+      }
+   },
+   {
+      "name":"Kimmel, Margaret Mary",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "Special libraries"
+         },
+         {
+            "Community informatics"
+         }
+      ]
+   },
+   {
+      "name":"Larsen, Ronald",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Miller, Rush G.",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":{
+         "Academic & research libraries"
+      }
+   },
+   {
+      "name":"Oh, Jung Sun ",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Ray, Glenn",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Star, Susan \"Leigh\" ",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "Social informatics"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Taylor, Arlene G.",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Bibliography , Documentation related"
+         }
+      ]
+   },
+   {
+      "name":"Tomer, Christinger ",
+      "school":"University of Pittsburgh",
+      "program":"LIS",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Karimi , Hassan",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":{
+         "Information visualization"
+      }
+   },
+   {
+      "name":"Kent, Alle",
+      "school":"University of Pittsburgh",
+      "program":"IS"
+   },
+   {
+      "name":"Lewis, Michael ",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Metzler, Douglas ",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Intelligent systems"
+         }
+      ]
+   },
+   {
+      "name":"Munro, Paul ",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":{
+         "Cognitive science"
+      }
+   },
+   {
+      "name":"Perkoski, Robert R.",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "human computer interaction"
+         },
+         {
+            "E-economics"
+         }
+      ]
+   },
+   {
+      "name":"Regan, Bob",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":{
+         "Information visualization"
+      }
+   },
+   {
+      "name":"Spring, Michael B.",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":{
+         "E-economics"
+      }
+   },
+   {
+      "name":"Williams, James G.",
+      "school":"University of Pittsburgh",
+      "program":"IS",
+      "interests":[
+         {
+            "Intelligent systems"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Zadorozhny, Vladimir",
+      "school":"University of Pittsburgh",
+      "program":"IS"
+   },
+   {
+      "name":"Kabara, Joseph",
+      "school":"University of Pittsburgh",
+      "program":"TELE"
+   },
+   {
+      "name":"Krishnamurthy, Prashant",
+      "school":"University of Pittsburgh",
+      "program":"TELE",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"Rezgui, Abdelmounaam ",
+      "school":"University of Pittsburgh",
+      "program":"TELE",
+      "interests":{
+         "Cultural Heritage related"
+      }
+   },
+   {
+      "name":"Thompson, Richard A.",
+      "school":"University of Pittsburgh",
+      "program":"TELE",
+      "interests":[
+         {
+            "Intelligent systems"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Tipper, David ",
+      "school":"University of Pittsburgh",
+      "program":"TELE"
+   },
+   {
+      "name":"Weiss , Martin B.H.",
+      "school":"University of Pittsburgh",
+      "program":"TELE",
+      "interests":{
+         "Information Policy"
+      }
+   },
+   {
+      "name":"Znati, Taieb ",
+      "school":"University of Pittsburgh",
+      "program":"TELE",
+      "interests":{
+         "Multi-media management"
+      }
+   },
+   {
+      "name":"John Bagby",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "Information Policy"
+         }
+      ]
+   },
+   {
+      "name":"Guoray Cai",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Brian Cameron",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "Intelligent systems"
+      }
+   },
+   {
+      "name":"John Carroll",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Chao-Hsien Chu",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":[
+         {
+            "Social informatics"
+         },
+         {
+            "Intelligent systems"
+         },
+         {
+            "Information Security"
+         },
+         {
+            "Information Retrieving"
+         }
+      ]
+   },
+   {
+      "name":"Shawn Clark",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":[
+         {
+            "Intelligent systems"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "Social informatics"
+         }
+      ]
+   },
+   {
+      "name":"Frederico Fonseca",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University"
+   },
+   {
+      "name":"Craig Ganoe",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":[
+         {
+            "Intelligent systems"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"C. Lee Giles",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University"
+   },
+   {
+      "name":"Edward Glantz",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University"
+   },
+   {
+      "name":"Jacob Graham",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University"
+   },
+   {
+      "name":"David Hall",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"John Harwood",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Steven Haynes",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"John Horgan",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University"
+   },
+   {
+      "name":"Kristinka Ivanova",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Jim Jansen",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Lynette Kvasny",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University"
+   },
+   {
+      "name":"Joseph Lambert",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "Intelligent systems"
+      }
+   },
+   {
+      "name":"Dongwon Lee",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "Information Organizing, metadata"
+      }
+   },
+   {
+      "name":"Peng Liu",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Jan Mahar",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "Intelligent systems"
+      }
+   },
+   {
+      "name":"Carleen Maitland",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "E-economics"
+      }
+   },
+   {
+      "name":"William McGill",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":[
+         {
+            "Intelligent systems"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Prasenjit Mitra",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "Digital libraries"
+      }
+   },
+   {
+      "name":"David Mudgett",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Tracy Mullen",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "E-economics"
+      }
+   },
+   {
+      "name":"Rosalie Ocker",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Irene Petrick",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Sandeep Purao",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "Intelligent systems"
+      }
+   },
+   {
+      "name":"Madhu Reddy",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "Information behavior (psychology-oriented)"
+      }
+   },
+   {
+      "name":"Frank Ritter",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Cognitive science"
+         }
+      ]
+   },
+   {
+      "name":"Mary Beth Rosson",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Timothy Ryan",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University"
+   },
+   {
+      "name":"Gerald Santoro",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University"
+   },
+   {
+      "name":"Don Shemanski",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "Data management (Database)"
+      }
+   },
+   {
+      "name":"Anna Squicciarini",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"Andrea Tapia",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "Social informatics"
+      }
+   },
+   {
+      "name":"Angsana Techatassanasoontorn",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University"
+   },
+   {
+      "name":"James Thomas",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "Data management (Database)"
+      }
+   },
+   {
+      "name":"Eileen Trauth",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "Social informatics"
+      }
+   },
+   {
+      "name":"James Wang",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "Data management (Database)"
+      }
+   },
+   {
+      "name":"Dinghao Wu",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Heng Xu",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University"
+   },
+   {
+      "name":"John Yen",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":[
+         {
+            "Intelligent systems"
+         },
+         {
+            "Cultural Heritage related"
+         }
+      ]
+   },
+   {
+      "name":"Xiaolong (Luke) Zhang",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":{
+         "Information visualization"
+      }
+   },
+   {
+      "name":"Sencun Zhu",
+      "school":"The Pennsylvania State University",
+      "program":"The Pennsylvania State University",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Information Security"
+         }
+      ]
+   },
+   {
+      "name":"Rajesh Krishna BALAN ",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Information Security"
+         }
+      ]
+   },
+   {
+      "name":"Ilse BAUMGARTNER ",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"CHENG Shih-Fen ",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Michelle CHEONG ",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"DAVIS Richard Christopher ",
+      "school":" Signapore Management University",
+      "program":"LIS"
+   },
+   {
+      "name":"Robert H DENG",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"DING Xuhua",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"Benjamin GAN",
+      "school":" Signapore Management University",
+      "program":"LIS"
+   },
+   {
+      "name":"Debin GAO",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"HU Nan",
+      "school":" Signapore Management University",
+      "program":"LIS"
+   },
+   {
+      "name":"Jing JIANG",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "Information behavior (psychology-oriented)"
+         }
+      ]
+   },
+   {
+      "name":"JIANG Lingxiao",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":{
+         "Information Retrieving"
+      }
+   },
+   {
+      "name":"KAM Tin Seong",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":{
+         "Information resources & Services"
+      }
+   },
+   {
+      "name":"KIM Youngsoo",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"LAU Hoong Chuin",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Intelligent systems"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"LEE Wee Leong",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"LEONG Thin Yin",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"LI Yingjiu",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":{
+         "Data management (Database)"
+      }
+   },
+   {
+      "name":"LIM Ee Peng",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"David LO",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"Dan MA",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "Information Policy"
+         }
+      ]
+   },
+   {
+      "name":"MA Nang Laik",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":{
+         "Data management (Database)"
+      }
+   },
+   {
+      "name":"Steven MILLER",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "human computer interaction"
+         },
+         {
+            "Digital libraries"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Kyriakos MOURATIDIS",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Arcot Desai NARASIMHALU",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":{
+         "Data management (Database)"
+      }
+   },
+   {
+      "name":"PANG Hwee Hwa",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "Information Retrieving"
+         }
+      ]
+   },
+   {
+      "name":"Narayan RAMASUBBU",
+      "school":" Signapore Management University",
+      "program":"LIS"
+   },
+   {
+      "name":"Ori SASSON",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Venky SHANKARARAMAN",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Jialie SHEN",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Pradeep Reddy VARAKANTHAM",
+      "school":" Signapore Management University",
+      "program":"LIS"
+   },
+   {
+      "name":"WONG Yue Kee",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"C Jason WOODARD",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Learning Sciences and Technologies"
+         }
+      ]
+   },
+   {
+      "name":"ZHENG Baihua",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":{
+         "Data management (Database)"
+      }
+   },
+   {
+      "name":"ZHU Feida",
+      "school":" Signapore Management University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Yale Braunstein",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":{
+         "E-economics (E-commerce)"
+      }
+   },
+   {
+      "name":"Eric Brewer",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"Jenna Burrel",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"John Canny",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "E-economics (E-commerce)"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Brian Carver",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         },
+         {
+            "Information Policy ,  Law"
+         }
+      ]
+   },
+   {
+      "name":"Goye Cheshire",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "Information Policy ,  Law"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"John Chuang",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":{
+         "?Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Robert Glushko",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"Ken Goldberg",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "human computer interaction"
+         },
+         {
+            "Information visualization"
+         },
+         {
+            "intelligent systems"
+         }
+      ]
+   },
+   {
+      "name":"Morten Hansen",
+      "school":"Berkeley",
+      "program":"School of Information"
+   },
+   {
+      "name":"Joseph Hellerstein",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Deirdre Mulligan",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "Information Policy ,  Law"
+         }
+      ]
+   },
+   {
+      "name":"Kimiko Ryokai",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Pamela Samuelson",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":{
+         "Information Policy ,  Law"
+      }
+   },
+   {
+      "name":"Anna Lee Saxenian",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":{
+         "E-economics (E-commerce)"
+      }
+   },
+   {
+      "name":"Doug Tygar",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":{
+         "Information Security"
+      }
+   },
+   {
+      "name":"Dancy Van House",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Hal Varian",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":{
+         "E-economics (E-commerce)"
+      }
+   },
+   {
+      "name":"Steven Weber",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "E-economics (E-commerce)"
+         }
+      ]
+   },
+   {
+      "name":"Erik Wilde",
+      "school":"Berkeley",
+      "program":"School of Information",
+      "interests":{
+         "Data management (Database)"
+      }
+   },
+   {
+      "name":"Yunan Cheng",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Paul Dourish",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "Information Security"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Julian Feldman",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Dan Frost",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Gilian Hayes",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Mimi Ito",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"James Jones",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"David Kay",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Alfred Kobsa",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Information visualization"
+         },
+         {
+            "Information Security"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Cristina Lopes",
+      "school":"UC Irvine",
+      "program":"UC Irvine"
+   },
+   {
+      "name":"Gloria Mark",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Melissa Mazmanian",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Bonnie nardi",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Information visualization"
+         }
+      ]
+   },
+   {
+      "name":"Judy Olson",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Gary Olson",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Donald Patterson",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":[
+         {
+            "intelligent systems"
+         },
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"David Redmiles",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "Information Security"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Debra Richardson",
+      "school":"UC Irvine",
+      "program":"UC Irvine"
+   },
+   {
+      "name":"Susan Kim",
+      "school":"UC Irvine",
+      "program":"UC Irvine"
+   },
+   {
+      "name":"Thomas Standish",
+      "school":"UC Irvine",
+      "program":"UC Irvine"
+   },
+   {
+      "name":"Richard Taylor",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":{
+         "Data management (Database)"
+      }
+   },
+   {
+      "name":"Bill Tomlinson",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Andew van der Hoek",
+      "school":"UC Irvine",
+      "program":"UC Irvine",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Hadar Ziv",
+      "school":"UC Irvine",
+      "program":"UC Irvine"
+   },
+   {
+      "name":"Murtha Baca",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":[
+         {
+            "E-economics (E-commerce)"
+         },
+         {
+            "Archives, Records related"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Marcia Bates",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":[
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "Information Retrieving"
+         }
+      ]
+   },
+   {
+      "name":"Stuart Biegel",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":{
+         "Information Policy ,  Law"
+      }
+   },
+   {
+      "name":"Jean-Francois Blanchette",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "Archives, Records related"
+         },
+         {
+            "Information Security"
+         }
+      ]
+   },
+   {
+      "name":"Christine Borgman",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":[
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "E-economics (E-commerce)"
+         },
+         {
+            "Digital libraries"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"Ciara Chu",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":[
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "E-economics (E-commerce)"
+         }
+      ]
+   },
+   {
+      "name":"Johanna Drucker",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":{
+         "Information Organizing, metadata"
+      }
+   },
+   {
+      "name":"Jonathan Furner",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":{
+         "Information Organizing, metadata"
+      }
+   },
+   {
+      "name":"Anne Gilliland",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Digital libraries"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"Esther Grassian",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Joan Kaplowitz",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Christopher Kelty",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":[
+         {
+            "Information Policy ,  Law"
+         },
+         {
+            "Health Informatics"
+         },
+         {
+            "E-economics (E-commerce)"
+         }
+      ]
+   },
+   {
+      "name":"Julie Kwan",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":[
+         {
+            "E-economics (E-commerce)"
+         },
+         {
+            "Health Informatics"
+         }
+      ]
+   },
+   {
+      "name":"Gregory Leazer",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"Leah Lievrouw",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":{
+         "E-economics (E-commerce)"
+      }
+   },
+   {
+      "name":"Marcy Maack",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Ellen Pearlstein",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Digital libraries"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"Steve Ricci",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"John Richardson Jr.",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "Information Retrieving"
+         }
+      ]
+   },
+   {
+      "name":"Ramesh Srinivasan",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":{
+         "E-economics (E-commerce)"
+      }
+   },
+   {
+      "name":"Kristen St. John",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"Elaine Svenonius",
+      "school":"UCLA",
+      "program":"UCLA",
+      "interests":{
+         "Information Organizing, metadata"
+      }
+   },
+   {
+      "name":"Abdul Alkalimat (McWorter)",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS"
+   },
+   {
+      "name":"Ann Bishop",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":{
+         "community informatics"
+      }
+   },
+   {
+      "name":"Alistair Black",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":[
+         {
+            "information policy, law"
+         },
+         {
+            "economics"
+         },
+         {
+            "cultural heritage related"
+         }
+      ]
+   },
+   {
+      "name":"Catherine Blake",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":[
+         {
+            "intelligent systems"
+         },
+         {
+            "information resources, services"
+         },
+         {
+            "information behavior"
+         }
+      ]
+   },
+   {
+      "name":"Chip Bruce",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":{
+         "community informatics"
+      }
+   },
+   {
+      "name":"Melissa Cragin",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":[
+         {
+            "information resources, services"
+         },
+         {
+            "information behavior"
+         }
+      ]
+   },
+   {
+      "name":"Susan G. Davis",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS"
+   },
+   {
+      "name":"J. Stephen Downie",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"David Dubin",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":[
+         {
+            "information organizatino, metadata"
+         },
+         {
+            "bibliography, documentation related"
+         }
+      ]
+   },
+   {
+      "name":"Miles Efron",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":{
+         "intelligent systems"
+      }
+   },
+   {
+      "name":"Jon Gant",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":[
+         {
+            "information policy, law"
+         },
+         {
+            "economics"
+         },
+         {
+            "cultural heritage related"
+         }
+      ]
+   },
+   {
+      "name":"Les Gasser",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":{
+         "community informatics"
+      }
+   },
+   {
+      "name":"Caroline Haythornthwaite",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":{
+         "community informatics"
+      }
+   },
+   {
+      "name":"Christine Jenkins",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":[
+         {
+            "school, children libraries"
+         },
+         {
+            "information policy, law"
+         },
+         {
+            "economics"
+         },
+         {
+            "cultural heritage related"
+         }
+      ]
+   },
+   {
+      "name":"Lori Kendall",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":{
+         "community informatics"
+      }
+   },
+   {
+      "name":"Kathryn La Barre",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":[
+         {
+            "information organizatino, metadata"
+         },
+         {
+            "bibliography, documentation related"
+         }
+      ]
+   },
+   {
+      "name":"W. John MacCullen",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":[
+         {
+            "intelligent systems"
+         },
+         {
+            "information resources, services"
+         },
+         {
+            "information behavior"
+         }
+      ]
+   },
+   {
+      "name":"Bonnie Mak",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":[
+         {
+            "information policy, law"
+         },
+         {
+            "economics"
+         },
+         {
+            "cultural heritage related"
+         }
+      ]
+   },
+   {
+      "name":"Jerome McDonough",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":[
+         {
+            "information organizatino, metadata"
+         },
+         {
+            "bibliography, documentation related"
+         }
+      ]
+   },
+   {
+      "name":"Kate McDowell",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":{
+         "school, children libraries"
+      }
+   },
+   {
+      "name":"Carole Palmer",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":[
+         {
+            "information resources, services"
+         },
+         {
+            "information behavior"
+         }
+      ]
+   },
+   {
+      "name":"Allen Renear",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":[
+         {
+            "information organizatino, metadata"
+         },
+         {
+            "bibliography, documentation related"
+         }
+      ]
+   },
+   {
+      "name":"Dan Schiller",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":[
+         {
+            "information policy, law"
+         },
+         {
+            "economics"
+         },
+         {
+            "cultural heritage related"
+         }
+      ]
+   },
+   {
+      "name":"Linda C. Smith",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":[
+         {
+            "information resources, services"
+         },
+         {
+            "information behavior"
+         }
+      ]
+   },
+   {
+      "name":"Deborah Stevenson",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS"
+   },
+   {
+      "name":"Carol Tilley",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":{
+         "school, children libraries"
+      }
+   },
+   {
+      "name":"Vetle Torvik",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS"
+   },
+   {
+      "name":"Michael Twidale",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":[
+         {
+            "information organizatino, metadata"
+         },
+         {
+            "bibliography, documentation related"
+         }
+      ]
+   },
+   {
+      "name":"John Unsworth",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":[
+         {
+            "information resources, services"
+         },
+         {
+            "information behavior"
+         }
+      ]
+   },
+   {
+      "name":"Terry L. Weech",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":{
+         "information behavior"
+      }
+   },
+   {
+      "name":"Kate Williams",
+      "school":"University of Illinois at Urbana-Champaign",
+      "program":"LIS",
+      "interests":{
+         "community informatics"
+      }
+   },
+{
+            "name":"Steven P. Abney",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Information Retrieving"
+            }
+        },
+        {
+            "name":"Mark Ackerman",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "human computer interaction"
+            }
+        },
+        {
+            "name":"Lada A. Adamic",
+            "school":"University of Michigan",
+            "program":"SI"
+        },
+        {
+            "name":"Eytan Adar",
+            "school":"University of Michigan",
+            "program":"SI"
+        },
+        {
+            "name":"Daniel E. Atkins",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Intelligent systems"
+            }
+        },
+        {
+            "name":"Cathleen A. Baker",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Cultural Heritage related"
+            }
+        },
+        {
+            "name":"Nicholas Berente",
+            "school":"University of Michigan",
+            "program":"SI"
+        },
+        {
+            "name":"Sharon Bernath",
+            "school":"University of Michigan",
+            "program":"SI"
+        },
+        {
+            "name":"Francis X. Blouin",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Archives, Records related"
+            }
+        },
+        {
+            "name":"Don Blumenthal",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Information Security"
+            }
+        },
+        {
+            "name":"Yan Chen",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "E-economics"
+            }
+        },
+        {
+            "name":"Michael D. Cohen",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Learning Sciences and Technologies"
+            }
+        },
+        {
+            "name":"Paul Conway",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Information visualization"
+            }
+        },
+        {
+            "name":"Paul N. Courant",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Information Policy"
+            }
+        },
+        {
+            "name":"Susan Crawford",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Information Policy"
+            }
+        },
+        {
+            "name":"James J. Duderstadt",
+            "school":"University of Michigan",
+            "program":"SI"
+        },
+        {
+            "name":"Edmund H. Durfee",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Intelligent systems"
+            }
+        },
+        {
+            "name":"Joan C. Durrance",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Community informatics"
+            }
+        },
+        {
+            "name":"Paul N. Edwards",
+            "school":"University of Michigan",
+            "program":"SI"
+        },
+        {
+            "name":"James R. Eng",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "human computer interaction"
+            }
+        },
+        {
+            "name":"Ixchel M. Faniel",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Information resources & Services"
+            }
+        },
+        {
+            "name":"Thomas Finholt",
+            "school":"University of Michigan",
+            "program":"SI"
+        },
+        {
+            "name":"Barry Fishman",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Learning Sciences and Technologies"
+            }
+        },
+        {
+            "name":"Kristin Fontichiaro",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "School , Children libraries"
+            }
+        },
+        {
+            "name":"Robert L. Frost",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Social informatics"
+            }
+        },
+        {
+            "name":"Elena Godina",
+            "school":"University of Michigan",
+            "program":"SI"
+        },
+        {
+            "name":"Myron Gutmann",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Social informatics"
+            }
+        },
+        {
+            "name":"Joseph Hardin",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "human computer interaction"
+            }
+        },
+        {
+            "name":"Margaret Hedstrom",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Data management (Database)"
+            }
+        },
+        {
+            "name":"Michael L. Hess",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "human computer interaction"
+            }
+        },
+        {
+            "name":"Steven J. Jackson",
+            "school":"University of Michigan",
+            "program":"SI"
+        },
+        {
+            "name":"Lynn Johnson",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "human computer interaction"
+            }
+        },
+        {
+            "name":"Brian Kahin",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "E-economics"
+            }
+        },
+        {
+            "name":"John L. King",
+            "school":"University of Michigan",
+            "program":"SI"
+        },
+        {
+            "name":"Daniel Klyn",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "human computer interaction"
+            }
+        },
+        {
+            "name":"Erin Krupka",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Social informatics"
+            }
+        },
+        {
+            "name":"Katherine Lawrence",
+            "school":"University of Michigan",
+            "program":"SI"
+        },
+        {
+            "name":"Jessica D. Litman",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Information Policy"
+            }
+        },
+        {
+            "name":"Jeffrey K. MacKie-Mason",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "E-economics"
+            }
+        },
+        {
+            "name":"Karen Markey",
+            "school":"University of Michigan",
+            "program":"SI"
+        },
+        {
+            "name":"Mark J. McCabe",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Information Organizing, metadata"
+            }
+        },
+        {
+            "name":"Michael J. McQuaid",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "human computer interaction"
+            }
+        },
+        {
+            "name":"Qiaozhu Mei",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Information visualization"
+            }
+        },
+        {
+            "name":"Mark W. Newman",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Intelligent systems"
+            }
+        },
+        {
+            "name":"Darlene Nichols",
+            "school":"University of Michigan",
+            "program":"SI"
+        },
+        {
+            "name":"Bryce C. Pilz",
+            "school":"University of Michigan",
+            "program":"SI"
+        },
+        {
+            "name":"Martha E. Pollack",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Intelligent systems"
+            }
+        },
+        {
+            "name":"Dragomir R. Radev",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Information Retrieving"
+            }
+        },
+        {
+            "name":"Paul Resnick",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "E-economics"
+            }
+        },
+        {
+            "name":"Virginia Rezmierski",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Information Policy"
+            }
+        },
+        {
+            "name":"Soo Young Rieh",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Information behavior (psychology-oriented)"
+            }
+        },
+        {
+            "name":"Victor Rosenberg",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Information Retrieving"
+            }
+        },
+        {
+            "name":"Rahul Sami",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Intelligent systems"
+            }
+        },
+        {
+            "name":"Charles Severance",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Intelligent systems"
+            }
+        },
+        {
+            "name":"Stephanie Teasley",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "human computer interaction"
+            }
+        },
+        {
+            "name":"Colleen van Lent",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Intelligent systems"
+            }
+        },
+        {
+            "name":"Tiffany C.E. Veino",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":[
+                {
+                    "Social informatics"
+                },
+                {
+                    "Information Policy"
+                },
+                {
+                    "Health Informatics"
+                }
+            ]
+        },
+        {
+            "name":"David A. Wallace",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Archives, Records related"
+            }
+        },
+        {
+            "name":"Terry E. Weymouth",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Information visualization"
+            }
+        },
+        {
+            "name":"Elizabeth Yakel",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Archives, Records related"
+            }
+        },
+        {
+            "name":"Shannon Zachary",
+            "school":"University of Michigan",
+            "program":"SI"
+        },
+        {
+            "name":"Kai Zheng",
+            "school":"University of Michigan",
+            "program":"SI",
+            "interests":{
+                "Health Informatics"
+            }
+        },
+        {
+            "name":"Ann S. Zimmerman",
+            "school":"University of Michigan",
+            "program":"SI"
+        },
+           {
+      "name":"Diane B. Barlow",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":{
+         "information behavior"
+      }
+   },
+   {
+      "name":"Benjamin B. Bederson",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":[
+         {
+            "information retrieval"
+         },
+         {
+            "information visualization"
+         }
+      ]
+   },
+   {
+      "name":"John Carlo Bertot",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":[
+         {
+            "learning sciences and technologies"
+         },
+         {
+            "archives, records relatd"
+         }
+      ]
+   },
+   {
+      "name":"Frank Burke",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":{
+         "archives, records relatd"
+      }
+   },
+   {
+      "name":"Vedat G. Diker",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MIM (Master of Information Management)",
+      "interests":{
+         "learning sciences and technologies"
+      }
+   },
+   {
+      "name":"Allison Druin",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":{
+         "children, school libraries"
+      }
+   },
+   {
+      "name":"Jean Dryden",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":[
+         {
+            "information policy, law"
+         },
+         {
+            "archives, records relatd"
+         }
+      ]
+   },
+   {
+      "name":"Kenneth R. Fleischmann",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MIM (Master of Information Management)",
+      "interests":[
+         {
+            "HCI"
+         },
+         {
+            "informatics"
+         }
+      ]
+   },
+   {
+      "name":"Jennifer Golbeck",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MIM (Master of Information Management)",
+      "interests":{
+         "social computing related"
+      }
+   },
+   {
+      "name":"Trudi Bellardo Hahn",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":[
+         {
+            "information policy, law"
+         },
+         {
+            "learning sciences, technologies"
+         }
+      ]
+   },
+   {
+      "name":"Stephen Hannestad",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MIM (Master of Information Management)",
+      "interests":{
+         "informatino organization, metadata"
+      }
+   },
+   {
+      "name":"Derek Hansen",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":[
+         {
+            "social computing related"
+         },
+         {
+            "informatics"
+         }
+      ]
+   },
+   {
+      "name":"Paul T. Jaeger",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":[
+         {
+            "information policy, law"
+         },
+         {
+            "informatino retrieval"
+         }
+      ]
+   },
+   {
+      "name":"Kari Kraus",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":[
+         {
+            "informatino retrieval"
+         },
+         {
+            "information policy, law"
+         }
+      ]
+   },
+   {
+      "name":"James W. Liesener",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":{
+         "children, school libraries"
+      }
+   },
+   {
+      "name":"Jimmy Lin",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS"
+   },
+   {
+      "name":"Charles Lowry",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":[
+         {
+            "informatino organization, metadata"
+         },
+         {
+            "digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Anne S. MacLeod",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":{
+         "children, school libraries"
+      }
+   },
+   {
+      "name":"Delia Neuman",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":{
+         "school, children libraries"
+      }
+   },
+   {
+      "name":"Douglas W. Oard",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":{
+         "intelligent systems, information security"
+      }
+   },
+   {
+      "name":"Scott Paquette",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MIM (Master of Information Management)",
+      "interests":[
+         {
+            "informatino organization, metadata"
+         },
+         {
+            "intelligent systems, information security"
+         }
+      ]
+   },
+   {
+      "name":"Jennifer J. Preece",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":[
+         {
+            "informatino organization, metadata"
+         },
+         {
+            "HCI"
+         }
+      ]
+   },
+   {
+      "name":"Ann Prentice",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MIM (Master of Information Management)",
+      "interests":{
+         "informatino organization, metadata"
+      }
+   },
+   {
+      "name":"Yan Qu",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":[
+         {
+            "intelligent systems, information security"
+         },
+         {
+            "HCI"
+         }
+      ]
+   },
+   {
+      "name":"Ben Shneiderman",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":[
+         {
+            "HCI"
+         },
+         {
+            "information visualization"
+         }
+      ]
+   },
+   {
+      "name":"Dagobert Soergel",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":{
+         "information retrieval"
+      }
+   },
+   {
+      "name":"Mega M. Subramaniam",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS"
+   },
+   {
+      "name":"Patricia Verdines",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MIM (Master of Information Management)",
+      "interests":[
+         {
+            "intelligent systems, information security"
+         },
+         {
+            "HCI"
+         }
+      ]
+   },
+   {
+      "name":"Claude E. Walston",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":{
+         "intelligent systems, information security"
+      }
+   },
+   {
+      "name":"Ping Wang",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":{
+         "intelligent systems, information security"
+      }
+   },
+   {
+      "name":"Ann C. Weeks",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":[
+         {
+            "children, school libraries"
+         },
+         {
+            "school, children libraries"
+         }
+      ]
+   },
+   {
+      "name":"Bo Xie",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":{
+         "social informatics"
+      }
+   },
+   {
+      "name":"Dave Yates",
+      "school":"University of Maryland College of Information Studies",
+      "program":"MLS",
+      "interests":{
+         "social computing related"
+      }
+   },
+   {
+      "name":"Barbara B. Moran",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":{
+         "Academic & research libraries"
+      }
+   },
+   {
+      "name":"Deborah Barreau",
+      "school":"University of North Carolina",
+      "program":"MSIS",
+      "interests":{
+         "Intelligent systems"
+      }
+   },
+   {
+      "name":"Ron Bergquist",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "Public libraries"
+         }
+      ]
+   },
+   {
+      "name":"Evelyn H. Daniel",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":[
+         {
+            "Special libraries"
+         },
+         {
+            "E-economics"
+         },
+         {
+            "School , Children libraries"
+         }
+      ]
+   },
+   {
+      "name":"Phillip M. Edwards ",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Claudia Gollop",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":[
+         {
+            "Health Informatics"
+         },
+         {
+            "Information resources & Services"
+         }
+      ]
+   },
+   {
+      "name":"Jane Greenberg",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":{
+         "Information Organizing, metadata"
+      }
+   },
+   {
+      "name":"Jose-Marie Griffiths",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":{
+         "Information Retrieving"
+      }
+   },
+   {
+      "name":"Stephanie W. Haas",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":{
+         "Information Retrieving"
+      }
+   },
+   {
+      "name":"Lew Hassell ",
+      "school":"University of North Carolina",
+      "program":"MSIS",
+      "interests":{
+         "Data management (Database)"
+      }
+   },
+   {
+      "name":"Bradley M. Hemminger ",
+      "school":"University of North Carolina",
+      "program":"MSIS",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Health Informatics"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Sandra Hughes-Hassell",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":{
+         "School , Children libraries"
+      }
+   },
+   {
+      "name":"Paul Jones",
+      "school":"University of North Carolina",
+      "program":"MSLS"
+   },
+   {
+      "name":"Diane Kelly",
+      "school":"University of North Carolina",
+      "program":"MSIS",
+      "interests":[
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "Information Retrieving"
+         }
+      ]
+   },
+   {
+      "name":"Christopher (Cal) Lee",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":{
+         "Archives, Records related"
+      }
+   },
+   {
+      "name":"Robert M. Losee",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Information Retrieving"
+         }
+      ]
+   },
+   {
+      "name":"Gary Marchionini",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Richard Marciano",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"Joanne Gard Marshall",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":{
+         "Health Informatics"
+      }
+   },
+   {
+      "name":"Sarah C. Michalak",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":[
+         {
+            "Academic & research libraries"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Reagan Moore",
+      "school":"University of North Carolina",
+      "program":"MSIS",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Javed Mostafa",
+      "school":"University of North Carolina",
+      "program":"MSIS",
+      "interests":[
+         {
+            "Multi-media management"
+         },
+         {
+            "Information Retrieving"
+         }
+      ]
+   },
+   {
+      "name":"Jeffrey Pomerantz",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "Information resources & Services"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Arcot Rajasekar",
+      "school":"University of North Carolina",
+      "program":"MSIS",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Jerry D. Saye",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":[
+         {
+            "Cultural Heritage related"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Brian W. Sturm",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":[
+         {
+            "Public libraries"
+         },
+         {
+            "School , Children libraries"
+         }
+      ]
+   },
+   {
+      "name":"Helen R. Tibbo",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":[
+         {
+            "Information resources & Services"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"Barbara M. Wildemuth",
+      "school":"University of North Carolina",
+      "program":"MSLS",
+      "interests":{
+         "Information Retrieving"
+      }
+   },
+   {
+      "name":"Jeff Allen",
+      "school":"University of North Texas",
+      "program":"LTEC",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Demetria Ennis-Cole",
+      "school":"University of North Texas",
+      "program":"LTEC",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Judith Enriquez",
+      "school":"University of North Texas",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "Social informatics"
+         }
+      ]
+   },
+   {
+      "name":"Greg Jones",
+      "school":"University of North Texas",
+      "program":"LTEC",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Gerald A. Knezek",
+      "school":"University of North Texas",
+      "program":"LTEC",
+      "interests":{
+         "Community informatics"
+      }
+   },
+   {
+      "name":"Jessica Li",
+      "school":"University of North Texas",
+      "program":"LTEC",
+      "interests":{
+         "Community informatics"
+      }
+   },
+   {
+      "name":"Lin Lin",
+      "school":"University of North Texas",
+      "program":"LTEC",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Kim Nimon",
+      "school":"University of North Texas",
+      "program":"LTEC",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Cathleen Norris",
+      "school":"University of North Texas",
+      "program":"LTEC",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"James L. Poirot",
+      "school":"University of North Texas",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Intelligent systems"
+         }
+      ]
+   },
+   {
+      "name":"Scott Warren",
+      "school":"University of North Texas",
+      "program":"LTEC",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Jerry L. Wircenski",
+      "school":"University of North Texas",
+      "program":"LTEC",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Michelle Wircenski",
+      "school":"University of North Texas",
+      "program":"LTEC",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Yvonne J. Chandler",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":[
+         {
+            "Special libraries"
+         },
+         {
+            "Information resources & Services"
+         }
+      ]
+   },
+   {
+      "name":"Jiangping Chen",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":{
+         "Information Retrieving"
+      }
+   },
+   {
+      "name":"Ana D. Cleveland",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":{
+         "Health Informatics"
+      }
+   },
+   {
+      "name":"Donald B. Cleveland",
+      "school":"University of North Texas",
+      "program":"LIS"
+   },
+   {
+      "name":"Yunfei Du",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":{
+         "Academic & research libraries"
+      }
+   },
+   {
+      "name":"Larry Enoch",
+      "school":"University of North Texas",
+      "program":"LIS"
+   },
+   {
+      "name":"Elizabeth Figa",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":{
+         "Cultural Heritage related"
+      }
+   },
+   {
+      "name":"Janet Hilbun",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":{
+         "School , Children libraries"
+      }
+   },
+   {
+      "name":"Shawne Miksa",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"William E. Moen",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Policy"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+
+
+
+
+
+   {
+      "name":"Brian OConnor",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information behavior (psychology-oriented)"
+         },
+         {
+            "Information Retrieving"
+         }
+      ]
+   },
+   {
+      "name":"Guillermo Oyarce",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Miguel Ruiz",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":{
+         "Information Retrieving"
+      }
+   },
+   {
+      "name":"Linda Schamber",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":{
+         "Information Organizing, metadata"
+      }
+   },
+   {
+      "name":"Barbara Schultz-Jones",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":{
+         "Information Organizing, metadata"
+      }
+   },
+   {
+      "name":"Barbara Stein Martin",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":{
+         "School , Children libraries"
+      }
+   },
+   {
+      "name":"Dale Thompson",
+      "school":"University of North Texas",
+      "program":"LIS"
+   },
+   {
+      "name":"Herman L. Totten",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":{
+         "Information Policy"
+      }
+   },
+   {
+      "name":"Phil Turner",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":[
+         {
+            "School , Children libraries"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Maurice B. Wheeler",
+      "school":"University of North Texas",
+      "program":"LIS",
+      "interests":[
+         {
+            "Social informatics"
+         },
+         {
+            "Public libraries"
+         }
+      ]
+   },
+   {
+      "name":"Sheila Corrall",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Academic & research libraries"
+         },
+         {
+            "Bibliography , Documentation related"
+         },
+         {
+            "Cognitive science"
+         },
+         {
+            "Learning Sciences and Technologies"
+         }
+      ]
+   },
+   {
+      "name":"Micheline Beaulieu",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LIS"
+   },
+   {
+      "name":"Peter Bath",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information resources & Services"
+         },
+         {
+            "Bibliography , Documentation related"
+         },
+         {
+            "Intelligent systems"
+         }
+      ]
+   },
+   {
+      "name":"Briony Birdi",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LIS",
+      "interests":[
+         {
+            "Public libraries"
+         },
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Information resources & Services"
+         }
+      ]
+   },
+   {
+      "name":"Paul Clough",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "human computer interaction"
+         },
+         {
+            "Data management (Database)"
+         },
+         {
+            "Bibliography , Documentation related"
+         },
+         {
+            "Information Retrieving"
+         }
+      ]
+   },
+   {
+      "name":"Andrew Cox",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LIS",
+      "interests":{
+         "human computer interaction"
+      }
+   },
+   {
+      "name":"Nigel Ford",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "Bibliography , Documentation related"
+         }
+      ]
+   },
+   {
+      "name":"Jonathan Foster ",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LTEC",
+      "interests":{
+         "Academic & research libraries"
+      }
+   },
+   {
+      "name":"Val Gillet",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LTEC",
+      "interests":{
+         "Information Retrieving"
+      }
+   },
+   {
+      "name":"John Holliday",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LTEC"
+   },
+   {
+      "name":"Philippa Levy",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LIS",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Angela Lin",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LTEC",
+      "interests":[
+         {
+            "human computer interaction"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Miguel Baptista Nunes",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LTEC",
+      "interests":{
+         "Data management (Database)"
+      }
+   },
+   {
+      "name":"Alex Peng",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information Security"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Daniela Petrelli",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Intelligent systems"
+         },
+         {
+            "human computer interaction"
+         },
+         {
+            "Bibliography , Documentation related"
+         }
+      ]
+   },
+   {
+      "name":"Mark Sanderson",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LTEC",
+      "interests":{
+         "Bibliography , Documentation related"
+      }
+   },
+   {
+      "name":"Barbara Sen",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LIS",
+      "interests":[
+         {
+            "Public libraries"
+         },
+         {
+            "Information resources & Services"
+         },
+         {
+            "Cognitive science"
+         },
+         {
+            "Academic & research libraries"
+         }
+      ]
+   },
+   {
+      "name":"Peter Stordy",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Information Policy"
+         }
+      ]
+   },
+   {
+      "name":"Bob Usherwood",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LIS",
+      "interests":[
+         {
+            "Public libraries"
+         },
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Academic & research libraries"
+         }
+      ]
+   },
+   {
+      "name":"Ana Cristina Vasconcelos",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LTEC",
+      "interests":{
+         "Bibliography , Documentation related"
+      }
+   },
+   {
+      "name":"Sheila Webber",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LTEC",
+      "interests":{
+         "Learning Sciences and Technologies"
+      }
+   },
+   {
+      "name":"Steve Whittaker",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "human computer interaction"
+         }
+      ]
+   },
+   {
+      "name":"Peter Willett",
+      "school":"School of Information Studies, University of Sheffield",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Intelligent systems"
+         },
+         {
+            "Information visualization"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Zhi Cao",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LIS",
+      "interests":{
+         "Archives, Records related"
+      }
+   },
+   {
+      "name":"Chuanfu Chen ",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information resources & Services"
+         },
+         {
+            "Information Policy"
+         }
+      ]
+   },
+   {
+      "name":"Ruhua Huang ",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information resources & Services"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "Digital libraries"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Rong Liu ",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information resources & Services"
+         },
+         {
+            "Cognitive science"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Yingjuan Lu ",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LIS",
+      "interests":{
+         "Digital libraries"
+      }
+   },
+   {
+      "name":"Feizhang Peng ",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Cognitive science"
+         },
+         {
+            "Bibliography , Documentation related"
+         }
+      ]
+   },
+   {
+      "name":"Xiaolin Qiu",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Cognitive science"
+         }
+      ]
+   },
+   {
+      "name":"Gengxin Sun",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LIS",
+      "interests":{
+         "Information Organizing, metadata"
+      }
+   },
+   {
+      "name":"Li Si",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Academic & research libraries"
+         }
+      ]
+   },
+   {
+      "name":"Chaojun Sima",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Archives, Records related"
+         },
+         {
+            "Special libraries"
+         }
+      ]
+   },
+   {
+      "name":"Dan Wu",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Ximing Xiao",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Academic & research libraries"
+         },
+         {
+            "Information resources & Services"
+         }
+      ]
+   },
+   {
+      "name":"Lin Yuan",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LIS",
+      "interests":{
+         "Information resources & Services"
+      }
+   },
+   {
+      "name":"Yanfei Zhang",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LIS",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "E-economics"
+         }
+      ]
+   },
+   {
+      "name":"Zhao era",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LIS"
+   },
+   {
+      "name":"Xianjin Zha",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Cognitive science"
+         },
+         {
+            "Information resources & Services"
+         }
+      ]
+   },
+   {
+      "name":"Jun Dai",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Shengli Dai",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information resources & Services"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Zhonghua Deng",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "E-economics"
+         }
+      ]
+   },
+   {
+      "name":"Changping Hu ",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Learning Sciences and Technologies"
+         }
+      ]
+   },
+   {
+      "name":"Shaohua He",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":{
+         "Information resources & Services"
+      }
+   },
+   {
+      "name":"Yuying Jiao",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "E-economics"
+         },
+         {
+            "Information Retrieving"
+         }
+      ]
+   },
+   {
+      "name":"Jihong Kou",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Information resources & Services"
+         }
+      ]
+   },
+   {
+      "name":"Gang Li",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information resources & Services"
+         },
+         {
+            "Cognitive science"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Ping Liu",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Intelligent systems"
+         },
+         {
+            "Information resources & Services"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Feicheng Ma ",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information resources & Services"
+         },
+         {
+            "E-economics"
+         }
+      ]
+   },
+   {
+      "name":"Dachuan Ma",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":{
+         "E-economics"
+      }
+   },
+   {
+      "name":"Quan Lu",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "E-economics"
+         },
+         {
+            "Information resources & Services"
+         }
+      ]
+   },
+   {
+      "name":"Lin Luo",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "E-economics"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Wei Lu",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "Digital libraries"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Ling Sun",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "Information resources & Services"
+         }
+      ]
+   },
+   {
+      "name":"Enmei Song",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":{
+         "E-economics"
+      }
+   },
+   {
+      "name":"Xiaobo Tang",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "E-economics"
+         },
+         {
+            "Multi-media management"
+         },
+         {
+            "Learning Sciences and Technologies"
+         }
+      ]
+   },
+   {
+      "name":"Yufeng Zhang",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Intelligent systems"
+         },
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "E-economics"
+         }
+      ]
+   },
+   {
+      "name":"Chuanyi Chen",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":{
+         "Archives, Records related"
+      }
+   },
+   {
+      "name":"Jiazhen Liu",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information resources & Services"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Xincai Wang",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Bibliography , Documentation related"
+         },
+         {
+            "Information resources & Services"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"Yikun Xia",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":{
+         "Information resources & Services"
+      }
+   },
+   {
+      "name":"Qiuhui Xiao",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "Information Policy"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"Chuanrong Xiong",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information Retrieving"
+         },
+         {
+            "Cultural Heritage related"
+         },
+         {
+            "Academic & research libraries"
+         }
+      ]
+   },
+   {
+      "name":"Hai Yan",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":{
+         "Information resources & Services"
+      }
+   },
+   {
+      "name":"Yuming Zhang",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Archives, Records related"
+         },
+         {
+            "Cultural Heritage related"
+         }
+      ]
+   },
+   {
+      "name":"Xiaojuan Zhang",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information Policy"
+         },
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Digital libraries"
+         },
+         {
+            "Information resources & Services"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"Yuyuan Zhu",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information resources & Services"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"Yaolin Zhou",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":{
+         "Archives, Records related"
+      }
+   },
+   {
+      "name":"Qing Fang",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":{
+         "Information resources & Services"
+      }
+   },
+   {
+      "name":"Kaiqing Huang",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":{
+         "E-economics"
+      }
+   },
+   {
+      "name":"Xianrong Huang",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":{
+         "Information Policy"
+      }
+   },
+   {
+      "name":"Zichu Luo",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":{
+         "Cultural Heritage related"
+      }
+   },
+   {
+      "name":"Yang Shen",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Digital libraries"
+         },
+         {
+            "Archives, Records related"
+         }
+      ]
+   },
+   {
+      "name":"Qing Wang",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC"
+   },
+   {
+      "name":"Xiaoguang Wang",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Ping Wu",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "Information Organizing, metadata"
+         }
+      ]
+   },
+   {
+      "name":"Yonggui Wu",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":{
+         "Information resources & Services"
+      }
+   },
+   {
+      "name":"Lifang Xu",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":{
+         "Cultural Heritage related"
+      }
+   },
+   {
+      "name":"Yongchun Yao",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information Policy"
+         },
+         {
+            "E-economics"
+         }
+      ]
+   },
+   {
+      "name":"Meijuan Zhang",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information Policy"
+         },
+         {
+            "E-economics"
+         },
+         {
+            "Cultural Heritage related"
+         }
+      ]
+   },
+   {
+      "name":"Jingwen Zhu",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":{
+         "E-economics"
+      }
+   },
+   {
+      "name":"Yuan Chen",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "E-economics"
+         },
+         {
+            "Multi-media management"
+         }
+      ]
+   },
+   {
+      "name":"Hui Dong",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "E-economics"
+         },
+         {
+            "Digital libraries"
+         }
+      ]
+   },
+   {
+      "name":"Fenglin Li",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information resources & Services"
+         },
+         {
+            "E-economics"
+         }
+      ]
+   },
+   {
+      "name":"Xiangdong Li",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information resources & Services"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "E-economics"
+         }
+      ]
+   },
+   {
+      "name":"Jian Meng",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "E-economics"
+         }
+      ]
+   },
+   {
+      "name":"Jin Nie",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information Policy"
+         },
+         {
+            "E-economics"
+         }
+      ]
+   },
+   {
+      "name":"Xueqing Tan",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "E-economics"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   },
+   {
+      "name":"Lin Wang",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "E-economics"
+         }
+      ]
+   },
+   {
+      "name":"Shiying Yu",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":{
+         "E-economics"
+      }
+   },
+   {
+      "name":"Ziming Zeng",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "E-economics"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "Intelligent systems"
+         }
+      ]
+   },
+   {
+      "name":"Liyi Zhang",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Learning Sciences and Technologies"
+         },
+         {
+            "E-economics"
+         }
+      ]
+   },
+   {
+      "name":"Min Zhang",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information resources & Services"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "E-economics"
+         }
+      ]
+   },
+   {
+      "name":"NIng Zhou",
+      "school":"School of Network Education,Wuhan University",
+      "program":"LTEC",
+      "interests":[
+         {
+            "Information visualization"
+         },
+         {
+            "Information Retrieving"
+         },
+         {
+            "Information Organizing, metadata"
+         },
+         {
+            "E-economics"
+         },
+         {
+            "Data management (Database)"
+         }
+      ]
+   }]

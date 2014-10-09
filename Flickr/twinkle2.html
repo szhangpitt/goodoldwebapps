@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<title>Flickr Twinkle (Currently only on Firefox)</title>
+<head>
+  <style>
+  	*{ font-family:Tahoma, Geneva, sans-serif;}
+  	img{ margin:8px;}
+	img.displayed {display: block; margin-left: auto; margin-right: auto }
+	img:hover{ cursor:pointer;}
+	.size32{width:32px;height:32px;}
+	.size64{width:64px;height:64px; border: 4px #FFF solid;}
+	.size64:hover{ border:4px #F39 solid; opacity:1}
+	.sizeh400{height:400px;}
+	.sizeh600{height:600px;display:block; margin-left: auto; margin-right: auto ; }
+	.tagSpan{ font-size:20px; color:#06F; padding-left:8px; padding-top:4px; padding-bottom:2px; margin:20px; background-image:url(../../img/mask.png);}	
+	.bigTag{ font-size:36px; color:#0C3;}
+	.middleTag{ font-size:24px; color:#C39;}
+	.tagSpan:hover{opacity:1; cursor:pointer; font-weight:bold; }
+	.tagSpanSelected{ font-size:20px; color: #FFF; background-color:#03F; cursor:pointer;}
+	#taghint{ color:#F39;}
+	.visible{ visibility:visible;}
+	.invisible{ visibility:hidden;}
+	.tags{}
+	#context_tags{
+	width:1000px;
+	height:600px;
+	margin-top: 0px;
+	line-height:40px;   display:block; margin-left: auto; margin-right: auto ;  
+}
+	#tags{width:530px; height:100px; border:0px dashed gray; float:left; overflow:auto;}
+	#details{width:650px; height:100px; border:0px dashed gray; float:right;}
+	#images{width:1100px; height:200px;overflow: auto; border: 0px solid black;}
+	#mediumView{width:1100px; height:600px; border:2px dashed gray; position:relative; top:-600px; z-index:-1;}
+	#container{width:1200px; height:600px; margin:0px; }
+	#dim{ background-color:#000; opacity: 0.7; /* Safari, Opera */-moz-opacity:0.70; /* FireFox */filter: alpha(opacity=70); /* IE */ }
+	#detailscontainer{width:1200px; height:100px; margin:20px;}
+	#title{font-size:16px; color:#03F;}
+	#user{font-size:16px; color:#03F;}
+	
+	
+  </style>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript" src="../jtimer.js"></script>
+
+
+  <script>
+  
+  var timer_is_on = 0;
+  var array = new Array();
+var total_loaded =0;
+var array_url_b = new Array();
+  
+  function doTimer()
+{
+if (!timer_is_on)
+  {
+  timer_is_on=1;
+  timedCount();
+  }
+}
+
+function timedCount()
+{if(timer_is_on == 1)
+{
+$(".size64").fadeTo(300,0.5);
+$("#images").animate({ scrollTop: $("#images").attr("scrollHeight") }, 1000, "linear", loadPhotos());
+
+t=setTimeout("timedCount()",3000);
+}
+
+
+}
+
+function dumpPhotos(){
+$(".size64").removeClass("size64").addClass("size32");
+	
+}
+
+function dumpAll(){
+$(".size64").remove();
+$("#mediumView").empty();
+//$("#tags").empty();
+}
+
+var tagArray = new Array();
+function processTags(tagStr){
+	var tag;
+	if(tagStr ==""){return null;}
+	else{
+		var i =0;
+		tag = tagStr.slice(i,tagStr.indexOf(" ",i));
+//todo
+tagArray.push(tag);
+		}
+	}
+
+
+function mediumSlideShow()
+{
+	$(".sizeh600").fadeTo(1000, 0);
+	var last_i=0;
+	var rand_i = Math.floor(Math.random()*array_url_b.length);
+	var img_b = new Image();
+	while(rand_i == last_i)
+	{
+    	rand_i = Math.floor(Math.random()*array_url_b.length);
+  	}
+  	last_i = rand_i;
+	
+	$("#mediumView").empty();
+	$(img_b).load().attr("src",array_url_b[rand_i]).addClass("sizeh600").hide().appendTo("#mediumView").fadeIn(2000).fadeTo(2000,1).fadeTo(10000,1).fadeOut(2000);//.fadeTo(5000,1).fadeTo(2000,0.3).fadeTo(5000,0.3).fadeOut();	
+	
+	setTimeout("mediumSlideShow()", 15400);
+				
+}
+
+function dummy(){}
+
+var clusterTag = new Array(3);
+
+function searchTag()
+{	
+dumpAll();
+
+$("#taghint").removeClass("invisible").addClass("visible");
+$("#context_tags").empty();
+	var tag = $("#tagText").val();
+	
+	var str3_1 = ''; //clusterTag[0];
+	var str3_2 = '';//clusterTag[1];
+	var	str3_3 = '';//clusterTag[2];
+	var cluster_id = str3_1 + '/' + str3_2 + '/' + str3_3;
+	
+	
+	var str ="http://api.flickr.com/services/rest/?method=flickr.tags.getClusterPhotos&api_key=dbc006ce6b8ec8613c7efde226b1af50&extras=owner_name&format=json&jsoncallback=?&tag=";
+	str = str + tag;
+	str = str + '&cluster_id=' + cluster_id;
+	var randomiToMedium = Math.floor(Math.random()*12);
+	$.getJSON(str, function(data)
+	{			
+          $.each(data.photos.photo, function(i,item)
+		  {
+			  var img1 = new Image();
+			  var img_b = new Image();
+			  var user = item.username+'';
+			var title = item.title+'';
+			  var photoURLpart = 'http://farm' + item.farm + '.static.flickr.com/'  + item.server + '/'  + item.id + '_' + item.secret;
+		  var photoURL_s = photoURLpart + '_s.jpg';
+		  var photoURL_b = photoURLpart + '_d.jpg';
+		  array_url_b.push(photoURL_b);
+			 // $(img1).hide();
+			  $(img1).load(function()
+				{
+					$(this).hide();
+					$(this).fadeIn();
+					total_loaded = total_loaded +1;
+				}).attr("src",photoURL_s)
+			  		.addClass("size64").bind("click",function(){
+															  $("#mediumView").empty();
+															  $("#user").empty().append(user);
+															  $("#title").empty().append(title);
+															$(img_b).load().attr("src",photoURL_b).addClass("sizeh600").appendTo("#mediumView");//.fadeTo(5000,1).fadeTo(2000,0.3).fadeTo(5000,0.3).fadeOut();
+															  
+															  })
+					.appendTo("#images");
+					//$("size64").effect("transfer",{to: "mediumView"});
+				if ( i == randomiToMedium ) {
+					//$("#mediumView").empty();
+					//$(img_b).load().attr("src",photoURL_b).addClass("sizeh600").hide().appendTo("#mediumView").fadeTo(500,0).fadeTo(500,1).fadeTo(10000,1);//.fadeTo(5000,1).fadeTo(2000,0.3).fadeTo(5000,0.3).fadeOut();				
+					//setTimeout("dummy()",10000);
+					
+				}
+          });
+     });
+	
+	var str2 = "http://api.flickr.com/services/rest/?method=flickr.tags.getClusters&api_key=dbc006ce6b8ec8613c7efde226b1af50&format=json&jsoncallback=?&tag=";
+	str2 = str2+tag;
+		
+//	$("#context_tags").append("test");
+	$.getJSON(str2, function(data){
+							 $("#context_tags").append();
+							 $.each(data.clusters.cluster, function(i,item){
+																	var tc='';
+																	$.each(item.tag,function(i,item){
+																							 tc=item._content;
+																							 var spanPrefix = "<span class=\"tagSpan";
+																							 if(i<3){spanPrefix += " bigTag\"";}
+																							 else if(i<5){spanPrefix += " middleTag\"";}
+																							//else if (i%7 == 0){spanPrefix += " bigTag\"";}
+																							else if (i%5 == 0){spanPrefix += " middleTag\"";}
+																							 var tagSpan = spanPrefix + ">"+ tc + ' ' + "</span>";//"<span class=\"tagSpan\">" + tc + ' ' + "</span>"
+																							 //$("#context_tags").append(tagSpan);
+																							 //var fadeX = Math.floor(Math.random()+0.2);
+																							 var animateT = Math.floor(Math.random()*8000+(Math.random()-0.5)*6000);
+																							 $(tagSpan).appendTo($("#context_tags")).hide().addClass("tags")
+																							 .fadeTo(animateT,0).fadeTo(500,1).fadeTo(1500,1).fadeTo(500,0.3).fadeTo(3000,0.1)
+																							 .everyTime(animateT+5000+8000,'controlled', function(i){$(this).fadeTo(animateT,0.0).fadeTo(500,1).fadeTo(1000,1).fadeTo(500,0.2).fadeTo(2000,0.2).fadeTo(500,0);})
+																							 .bind("click",function(){
+																									   $("#tagText").val($(this).text());
+																									   var sl =parseInt($(this).position().left);
+																									   var st = parseInt($(this).position().top);
+																									   //var w = parseInt($(this).css("width"));
+																									   //w = w/1.5;
+																									   var vectorX = (500 - sl)/4;
+																									  var vectorY = (300 - st)/6;
+																										var l=sl+vectorX;
+																										var t = st+vectorY;
+																									  l=l+'px';
+																									  t=t+'px';
+																									  w = w+ 'px';
+																									  $(this).animate({
+																												   "left": l,
+																												   "top": t,
+																												   //"width": w,
+																												   "opacity": "-=0.15"
+																												   
+																												   },"slow");
+																									   });
+																									   //$(".tagSpan").remove();
+																									   array_url_b = new Array();
+																									   //searchTag();
+																									  // $("#tags").append($(this).text()+ ' ');																									   
+																									   })
+																							 .bind("mouseenter",function(){
+																														//animateT = 0;
+																														//$(".tagSpan").stopTime('controlled');
+																														//$(".tagSpan").fadeTo(1000,1);
+																														})//end of bind
+																							 .bind("mouseleave",function(){
+																														//$(".tagSpan").fadeTo(animateT,0.0).fadeTo(500,1).fadeTo(1000,1).fadeTo(500,0.3).fadeTo(3000,0.1)
+																														 //.everyTime(animateT+5000+8000,'controlled', function(i){$(this).fadeTo(animateT,0.0).fadeTo(500,1).fadeTo(1000,1).fadeTo(500,0.1);})
+																														})//end of bind
+																							 });
+																   
+																   
+																   });
+							 });
+
+}
+
+function pushLoaded()
+{
+$(".tags").each(function(i,item){
+						   var sl =parseInt($(this).css("left"));
+						   var st = parseInt($(this).css("top"));
+						   var w = parseInt($(this).css("width"));
+						   w = w/1.5;
+						   var vectorX = (500 - sl)/4;
+						  var vectorY = (300 - st)/6;
+							var l=sl+vectorX;
+							var t = st+vectorY;
+						  l=l+'px';
+						  t=t+'px';
+						  w = w+ 'px';
+						  $(this).animate({
+									   "left": l,
+									   "top": t,
+									   "width": w,
+									   "opacity": "-=0.15"
+									   
+									   },"slow");
+						   });
+
+$(".loaded").draggable();
+
+}
+
+function addContextTag(){
+	$(".tagSpanSelected").each(function(i,item){
+										
+										});
+	}
+$(document).ready(function(){
+		$("#tagText").val("pittsburgh");
+		searchTag();
+		//setTimeout("mediumSlideShow()", 2000);
+});
+function keyupfunction(){}
+function addListener(){
+$(".size64").bind("click",function(){alert("click");});
+}
+
+function randomClicked(){
+	timer_is_on = 1 - timer_is_on;
+	if(timer_is_on == 1){
+		$("#randomButton").val("Stop");
+		timedCount();
+		}
+	else{
+		$("#randomButton").val("Fly !");
+		}
+	}
+function buffer(){
+	if($(".size64").size() > 24)
+	{
+	$(".size64").slice(0,$(".size64").size() - 24).remove();
+	}
+	}
+	
+	
+
+  </script>
+<title>Flickr on the Fly - Shaopeng Zhang</title></head>
+<body>
+<h1 style="margin-bottom:0px;"><span style="color:#03F">Flickr</span><span style="color:#F39"> tWiNkLe!</span><span style="font-size:14px">  -- Currently only on Firefox</span></h1>
+<div style="color:#03F; margin-bottom:10px;">Click on tags to explore photos! Click on thumbnail to view photos!</div>
+<input type="text" id= "tagText" name="tagText" value="" />
+<input type="button" id="searchButton" value="Search !" onClick="searchTag()">
+<div id="taghint" class="invisible">You might also want to see: </div>
+	<div id="container">
+    <div id="context_tags"></div>
+    <div id="images"></div>
+	
+</div><div id="mediumView"></div>
+    <div id="detailscontainer">
+    <div id="tags"></div>
+    <div id="details"><div id="title"></div><div id="user"></div></div>
+    </div>
+    <script>
+
+
+</script>
+</body>
+</html>

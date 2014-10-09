@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* The images styling is needed to turn the <ul> into a 3x3 grid */
+#images {
+	padding: 			0px;
+	margin: 			0px;
+	height: 			165px;
+	width: 				165px;
+	overflow:			hidden;
+}
+#images ul {
+	list-style:			none;
+	float: 				left;
+	padding: 			0px;
+	margin: 			0px;
+}
+#images ul li {
+	display: 			inline;
+}
+#images ul li img {
+	border: 			none;
+	padding: 			0 5px 5px 0;
+	width: 				50px;
+	height: 			50px;
+	opacity: 			0.6;
+	-moz-opacity: 		0.6;	
+}
+#images ul li img:hover {
+	opacity: 			1;
+	-moz-opacity: 		1;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="weathergadget.css" rel="stylesheet" type="text/css"/>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+
+<body>
+<table width="200" border="0" cellspacing="2">
+  <tr>
+    <td width="40" height="40"><img id="img0" /></td>
+    <td id="temp0"></td>
+    <td class="misc">1<br/>1<br/>1<br/></td>
+  </tr>
+</table>
+<script>
+
+$.getJSON("http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20xml%20where%20url%3D'http%3A%2F%2Fwww.google.com%2Fig%2Fapi%3Fweather%3D15213'&callback=?", function(data) {
+	if(data){
+  alert('Load was performed.');}
+});
+
+
+</script>
+</body>
+</html>

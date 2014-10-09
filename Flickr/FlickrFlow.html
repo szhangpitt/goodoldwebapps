@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Flickr on the Fly -- Shaopeng Zhang</title>
+  <style>
+  	img{ margin:20px; position:absolute;width:100%; height:auto;  }
+	.size32{width:32px;height:32px;}
+	.size64{width:64px;height:64px;}
+	.sizeh400{height:400px;}
+	.toFront{ z-index:100;}
+	.loaded{}
+	.toPull{}
+	
+	#tags{width:500px; height:100px; border:2px dashed gray; float:left;}
+	#details{width:650px; height:100px; border:2px dashed gray; float:right;}
+	#images{width:1200px; height:700px;float:left;position:relative;}
+	#mediumView{width:650px; height:420px; border:2px dashed gray; float:right;}
+	#container{width:1200px; height:420px; margin:20px; }
+	#detailscontainer{width:1200px; height:100px; margin:20px;}
+	body{ background-color:black;}
+	h1, h2, h3, .note{ color:white;}
+	#bigViewer{ position:absolute; top:0px; left:200px; width:100%; height:auto; z-index:100;}
+	
+  </style>
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+  <script type="text/javascript" src="jui/js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="jui/js/jquery-ui-1.8rc2.custom.min.js"></script>
+  <script>
+  
+  var timer_is_on = 0;
+  var array = new Array();
+var total_loaded =0;
+  
+  function doTimer()
+{
+if (!timer_is_on)
+  {
+  timer_is_on=1;
+  timedCount();
+  }
+}
+
+function timedCount()
+{if(timer_is_on == 1)
+{
+$(".size64").fadeTo(300,0.5);
+$("#images").animate({ scrollTop: $("#images").attr("scrollHeight") }, 1000, "linear", loadPhotos());
+
+t=setTimeout("timedCount()",2000);
+}
+
+
+}
+
+function dumpPhotos(){
+$(".size64").removeClass("size64").addClass("size32");
+	
+}
+
+function dumpAll(){
+$(".loaded").remove();
+}
+
+var tagArray = new Array();
+function processTags(tagStr){
+	var tag;
+	if(tagStr ==""){return null;}
+	else{
+		var i =0;
+		tag = tagStr.slice(i,tagStr.indexOf(" ",i));
+//todo
+tagArray.push(tag);
+		}
+	}
+
+function pushLoaded()
+{
+$(".loaded").each(function(i,item){
+						   var sl =parseInt($(this).css("left"));
+						   var st = parseInt($(this).css("top"));
+						   var w = parseInt($(this).css("width"));
+						   w = w/1.5;
+						   var vectorX = 200 + Math.random()*100;
+						  var vectorY =  Math.random()*100;
+							var l=sl+vectorX;
+							var t = st+vectorY;
+						  l=l+'px';
+						  t=t+'px';
+						  w = w+ 'px';
+						  $(this).animate({
+									   "left": l,
+									   "top": t,
+									   "width": w,
+									   "opacity": "-=0.2"
+									   
+									   },"slow");
+						   });
+/*
+$(".loaded").animate({
+					 "left": "+=300px",
+					 "top": "-=150px",
+					 "opacity": "-=0.4",
+					"width": "10%",
+					"height": "auto",
+					"margin":"100px"
+					}, "slow");*/
+$(".loaded").draggable();
+
+}
+
+function pullLoaded()
+{
+$(".toPull").each(function(i,item){
+						   var sl =parseInt($(this).css("left"));
+						   var st = parseInt($(this).css("top"));
+						   var w = parseInt($(this).css("width"));
+						   w = w*3;
+						   var vectorX = (200 - sl)/2 + Math.random()*400;
+						  var vectorY = (600 - st)/2 - Math.random()*400;
+							var l=sl+vectorX;
+							var t = st+vectorY;
+						  l=l+'px';
+						  t=t+'px';
+						  w = w+ 'px';
+						  $(this).animate({
+									   "left": l,
+									   "top": t,
+									   "width": w,
+									   "opacity": "1"
+									   
+									   },"slow");
+						  $(this).removeClass("toPull").addClass("loaded")
+						   });
+
+$(".loaded").draggable();
+
+}
+
+function loadPhotos()
+{
+pushLoaded();
+	
+$.getJSON("http://api.flickr.com/services/rest/?method=flickr.photos.getRecent&api_key=c86148f6e30824eea874a35686ef0ecb&per_page=6&extras=tags&format=json&jsoncallback=?",
+        function(data){
+			
+          $.each(data.photos.photo, function(i,item){
+			var tagStr = item.tags;
+			processTags(tagStr);
+			$("#tags").append(tagStr);
+
+			var img1 = new Image();
+			var img_b = new Image();
+			var photoURLpart = 'http://farm' + item.farm + '.static.flickr.com/'  + item.server + '/'  + item.id + '_' + item.secret;
+		  var photoURL_s = photoURLpart + '_s.jpg';
+		  var photoURL_b = photoURLpart + '_d.jpg';
+		  var photoURL_m = photoURLpart + '_m.jpg';
+		  
+		  
+		  var w =Math.round( Math.random() * 30)+ 70;
+		  var l;
+		  var t;
+		  var sw=w/4; w=w+'px';sw = sw+'px';
+		  var sl;
+		  var st;
+		  var loffset=150;
+		  var toffset=100;
+		  var left = 20;
+		  var bottom = 400;
+		  var top = 30;
+		  var right = 600;
+		  
+		  var rand = Math.floor(Math.random()*10);
+		  var rand2 = Math.floor(Math.random()*10);
+
+
+		  sl = 0;
+		  st = 0;
+		  //sl = 400*Math.pow(-1,rand)+100;
+		  //st = 300*Math.pow(-1,rand2)+50;
+		  //var vectorX = (300 - sl)/2+500*Math.random();
+		  //var vectorY = (200 - st)/2+200*Math.random();
+		  var vectorX = (0 - sl)/4+100*Math.random();
+		  var vectorY = (0 - st)/4+200*Math.random();
+		  
+		  l = sl+vectorX;
+		  t = st+vectorY;
+		  
+		  l=l+'px'; sl=sl+'px';		  
+		  t=t+'px'; st=st+'px';
+		  var time = Math.round( Math.random() * 500)+200;	  
+		  $(img1).hide();
+		  $(img1).attr("src",photoURL_m);
+		  $(img1).load(function(){
+								
+				$(this).hide();	
+				 $(this).css({opacity:"0",
+					  	
+						  "width": sw,
+						  "left":sl,
+						  "top":st
+						  
+						  });
+		  $(this).animate({
+					opacity:"0.4",
+					width:w,
+					left:l,
+					top:t
+					},"slow");
+			$(this).draggable({start: function(){$(this).css("opacity","1");}});
+			
+			$(this).bind('click',function()
+										  {
+											  $(this).css("opacity","1");
+											  if(timer_is_on == 1)
+											  {
+													randomClicked();
+												  }
+											  $("#bigViewer").empty();
+										  if(1){
+											  $(img_b).attr("src",photoURL_b).appendTo("#bigViewer");
+										  $("#bigViewer").bind("click", function(){
+									   $(this).empty();
+									   
+									  
+									   });
+										
+											  }
+											 
+										  })
+						
+		  
+		  }).appendTo("#images").addClass("toPull");
+		  
+				buffer();
+			
+            if ( i == 1) return false;
+          });
+        });
+	pullLoaded();
+
+}
+function searchTag()
+{	
+	var tag = $("#tagText").val();
+	var str = "http://api.flickr.com/services/rest/?method=flickr.tags.getClusterPhotos&api_key=c86148f6e30824eea874a35686ef0ecb&extras=owner_name&format=json&jsoncallback=?&cluster_id=&tag=";
+	str = str + tag;
+	$.getJSON(str, function(data)
+	{			
+          $.each(data.photos.photo, function(i,item)
+		  {
+			  var img1 = new Image();
+			  var photoURL = 'http://farm' + item.farm + '.static.flickr.com/'  + item.server + '/'  + item.id + '_' + item.secret + '_s.jpg';
+			  $(img1).load(function()
+				{
+					$(this).hide();
+					$(this).fadeIn();
+					total_loaded = total_loaded +1;
+				}).attr("src",photoURL)
+			  		.addClass("size64")
+					.appendTo("#images");
+				if ( i == 12 ) return false;
+          });
+     });	
+}
+
+$(document).ready(function(){
+				// loadPhotos();
+				 });
+
+function addListener(){
+$(".size64").bind("click",function(){alert("click");});
+}
+
+function randomClicked(){
+	timer_is_on = 1 - timer_is_on;
+	if(timer_is_on == 1){
+		$("#randomButton").val("Stop");
+		timedCount();
+		}
+	else{
+		$("#randomButton").val("Start !");
+		}
+	}
+function buffer(){
+	if($(".loaded").size() > 12)
+	{
+	$(".loaded").slice(0,$(".loaded").size() - 12).fadeOut("slow");
+	$(".loaded").slice(0,$(".loaded").size() - 12).remove();
+	}
+	}
+  </script>
+
+</head>
+<body>
+
+<h1> Flickr on the fly - Flow</h1>
+<h2> See real-time uploaded photos on flickr</h2>
+<div class="note">When you see interesting photo, click on it or drag it around.</div>
+<div>
+<input type="button" id="randomButton" value="Start !" onClick="randomClicked()">
+<input type="button" value="Dump !" onClick="dumpAll()">
+</div>
+<div id="images"><div id="bigViewer"></div></div>
+<div class="note" style="display:inline"><h3> By Shaopeng Zhang, see <a href="http://www.pitt.edu/~shz26">my homepage</a></h3>
+
+ Suggestions are welcomed, please send email to me at SZhangPitt@gmail.com</div>
+
+</body>
+</html>

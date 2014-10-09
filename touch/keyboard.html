@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Keyboard</title>
+
+<script src="../Flickr/jquery-1.4.2.js"></script>
+<link href="key-style.css" rel="stylesheet" type="text/css" />
+<script>
+var shift_is_on = 0;
+var clipboard;
+$(document).ready(function(){
+						   
+						   hideUa();
+						   
+						   bindKeyEvents();
+						   });
+function hideUa(){
+	$(".ua").hide();
+	$("#_amp").hide();
+	$("#off-yes").hide();
+	$("#off-no").hide();
+	}
+	
+function bindKeyEvents(){
+	$("#_amp").click(function(){				
+							 var currentInput = $("#textinput").val();
+						   $("#textinput").val(currentInput+"&");
+						   
+							});
+	$(".a-n, .ua, #at, #com, #www").click(function(){				
+							 var currentInput = $("#textinput").val();
+						   $("#textinput").val(currentInput+$(this).html());
+						   
+							});
+	
+	$("#tab").click(function(){
+							 var currentInput = $("#textinput").val();
+							$("#textinput").val(currentInput+"\t");
+							});
+	
+	$("#backspace").click(function(){
+								   $(this).animate({"left":"-10px"},100);
+								   $(this).animate({"left":"0px"},100);							   
+								   var currentInput = $("#textinput").val()+'';
+								   var textLength = currentInput.length;
+							 if(textLength > 0)
+							 {								 
+								$("#textinput").val(currentInput.substring(0, textLength-1));
+							 }
+							});
+
+$("#enter").click(function(){
+									$(this).animate({"top":"-=20px"},200);
+									$(this).animate({"top":"+=20px"},200);
+									$(this).animate({"top":"-=10px"},200);
+									$(this).animate({"top":"+=10px"},200);
+									$(this).animate({"top":"-=5px"},200);
+									$(this).animate({"top":"+=5px"},200);
+								   });
+	
+	$(".a-n, .ua, #_amp, #at").mousedown(function(){
+								 $(this).animate({"width":"50px","height":"50px","opacity":"0.2","font-size":"36px"},100);
+								 $(this).animate({"width":"40px","height":"40px","opacity":"1","font-size":"24px"},100);
+								 })
+	.mouseup(function(){
+					  //$(this).animate({"width":"40px","height":"40px","opacity":"1","font-size":"24px"},100);
+					  });
+	
+	$("#www, #com").mousedown(function(){
+								 $(this).animate({"width":"90px","height":"50px","opacity":"0.2","font-size":"36px"},100);
+								  $(this).animate({"width":"80px","height":"40px","opacity":"1","font-size":"24px"},100);
+								 })
+	.mouseup(function(){
+//					  $(this).animate({"width":"80px","height":"40px","opacity":"1","font-size":"24px"},100);
+					  });
+	
+	$("#copy").click(function(){			
+							  	clipboard = $("#textinput").val();
+								$(this).fadeTo(200, 0.5).fadeTo(200,0.5).fadeTo(200,1);
+								$("#paste").animate({"top":"-=10px"},200)
+											.animate({"top":"+=10px"},200)
+											.animate({"top":"-=5px"},200)
+											.animate({"top":"+=5px"},200);
+								});
+	$("#cut").click(function(){
+							 clipboard = $("#textinput").val();
+							 $("#textinput").val("");
+								$(this).fadeTo(200, 0.5).fadeTo(200,0.5).fadeTo(200,1);
+								$("#paste").animate({"top":"-=10px"},200)
+											.animate({"top":"+=10px"},200)
+											.animate({"top":"-=5px"},200)
+											.animate({"top":"+=5px"},200);
+								});
+	$("#paste").click(function(){
+							   $("#textinput").val($("#textinput").val()+clipboard);
+							   $(this).fadeTo(200, 0.5).fadeTo(200,0.5).fadeTo(200,1);
+							   });
+
+document.body.onselectstart = function() { return(false); };
+
+	$("#shift").click(function(){
+							   if(shift_is_on == 0){
+								   shift_is_on = 1;
+								   $(this).html("abc , . /");
+								   $("#shift").fadeTo(200,0.5);
+								   //begin to chage a->A,
+								   $(".a-n").hide();
+								   $(".ua").fadeIn();
+									$("#_amp").fadeIn();		
+								   return;
+								   }
+							   if(shift_is_on == 1){
+								   shift_is_on = 0;
+								   $(this).html("ABC #+&quot;");
+								   $("#shift").fadeTo(200,1);
+								   $(".ua").hide();
+									$("#_amp").hide();		
+								   $(".a-n").fadeIn();
+								   return;
+								   }
+							   });
+	
+	$("#on-off").click(function(){
+								$(this).hide();
+								$("#off-yes").fadeIn();
+								$("#off-no").fadeIn();
+								});
+	$("#off-no").click(function(){
+								$(this).hide();
+								$("#off-yes").hide();
+								$("#on-off").fadeIn();
+								});
+	
+
+}
+function tap(key)
+{
+	$("#textinput").val(key);
+	}
+</script>
+</head>
+<body>
+<div id="introduction">
+<h1>Touchscreen Keyboard</h1>
+<p>You can mock touchscreen by clicking on the keys. Suggestion welcomed: szhangpitt@gmail.com - <a href="http://www.pitt.edu/~shz26">Shaopeng Zhang</a></p>
+<p>800*300</p>
+</div>
+<input id="textinput" type="text" size="40" style="font-size:24px;" />
+<div id="wrapper">
+  <div id="keyboard">
+<div id="frame">
+<div id="n-0">
+<div class="a-n">&#126;</div><div class="ua">&#96;</div>
+<div class="a-n">1</div><div class="ua">&#33;</div>
+<div class="a-n">2</div><div class="ua">@</div>
+<div class="a-n">3</div><div class="ua">&#35;</div>
+<div class="a-n">4</div><div class="ua">&#36;</div>
+<div class="a-n">5</div><div class="ua">&#37;</div>
+<div class="a-n">6</div><div class="ua">&#94;</div>
+<div class="a-n">7</div><div id="_amp">&amp;</div>
+<div class="a-n">8</div><div class="ua">&#42;</div>
+<div class="a-n">9</div><div class="ua">&#40;</div>
+<div class="a-n">0</div><div class="ua">&#41;</div>
+<div class="a-n">-</div><div class="ua">_</div>
+<div class="a-n">=</div><div class="ua">+</div>
+<div id="on-off">Quit</div><div id="off-no">No</div><div id="off-yes">Yes</div>
+
+</div>
+<div id="a-1">
+<div id="tab" class="a-n:tab">Tab</div>
+<div class="a-n">q</div><div class="ua">Q</div>
+<div class="a-n">w</div><div class="ua">W</div>
+<div class="a-n">e</div><div class="ua">E</div>
+<div class="a-n">r</div><div class="ua">R</div>
+<div class="a-n">t</div><div class="ua">T</div>
+<div class="a-n">y</div><div class="ua">Y</div>
+<div class="a-n">u</div><div class="ua">U</div>
+<div class="a-n">i</div><div class="ua">I</div>
+<div class="a-n">o</div><div class="ua">O</div>
+<div class="a-n">p</div><div class="ua">P</div>
+<div class="a-n">[</div><div class="ua">{</div>
+<div class="a-n">]</div><div class="ua">}</div>
+<div id="backspace">&larr;</div>
+
+</div>
+<div id="a-2">
+<div id="menu">Menu</div>
+<div class="a-n">a</div><div class="ua">A</div>
+<div class="a-n">s</div><div class="ua">S</div>
+<div class="a-n">d</div><div class="ua">D</div>
+<div class="a-n">f</div><div class="ua">F</div>
+<div class="a-n">g</div><div class="ua">G</div>
+<div class="a-n">h</div><div class="ua">H</div>
+<div class="a-n">j</div><div class="ua">J</div>
+<div class="a-n">k</div><div class="ua">K</div>
+<div class="a-n">l</div><div class="ua">L</div>
+<div class="a-n">;</div><div class="ua">:</div>
+<div class="a-n">'</div><div class="ua">"</div>
+<div class="a-n">\</div><div class="ua">|</div>
+
+</div>
+<div id="a-3">
+<div id="shift">ABC #+&quot;</div>
+<div class="a-n">z</div><div class="ua">Z</div>
+<div class="a-n">x</div><div class="ua">X</div>
+<div class="a-n">c</div><div class="ua">C</div>
+<div class="a-n">v</div><div class="ua">V</div>
+<div class="a-n">b</div><div class="ua">B</div>
+<div class="a-n">n</div><div class="ua">N</div>
+<div class="a-n">m</div><div class="ua">M</div>
+<div class="a-n">,</div><div class="ua">&lt;</div>
+<div class="a-n">.</div><div class="ua">&gt;</div>
+<div class="a-n">/</div><div class="ua">&#63;</div>
+<div id="enter">Enter</div>
+
+</div>
+<div id="a-4">
+
+<div id="copy">Copy</div>
+<div id="cut">Cut</div>
+<div id="space"></div>
+<div id="www">www</div>
+<div id="at">@</div>
+<div id="com">.com</div>
+
+<div id="paste">Paste</div>
+</div>
+
+</div>
+</div>
+</div>
+</body>
+</html>

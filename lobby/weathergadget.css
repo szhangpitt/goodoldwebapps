@@ -1,0 +1,27 @@
+#wrapper{
+width:242px;
+height:160px;}
+
+#img0{
+width:40px;
+height:40px;
+float:left;}
+
+#temp0{
+width:60px;
+height:40px;
+font-size:24px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#miscwrapper{
+width:60px;
+height:40px;
+font-size:12px;
+float:left;}
+
+.misc{
+font-size:12px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+
+}

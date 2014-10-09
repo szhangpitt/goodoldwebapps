@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+a{ text-decoration:none;}
+#introduction{ font-family:Tahoma, Geneva, sans-serif;}
+#textinput{ margin:12px;}
+
+#wrapper{}
+
+#keyboard{}
+
+#frame{ width:1000px;}
+
+#frame:hover{ cursor:pointer;}
+
+.a-n, #shift, #ctrl, #menu, #tab, #enter, #space, #arrow, #backspace, .ua, #_amp, #com, #at, #www, #copy, #cut, #paste, #on-off, #off-yes, #off-no{
+	background-color: #000;
+	border-top-color: #000;
+	border-right-color: #000;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	margin: 4px;
+	border-top-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-left-width: 2px;
+	padding: 2px;
+	height: 40px;
+	width: 40px;
+	color: #FFF;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 24px;
+	vertical-align: middle;
+	text-align: center;
+	float: left;
+	position: relative;
+	
+	-moz-user-select: none;   -khtml-user-select: none;   user-select: none;
+}
+#off-yes{ background-color:#900;}
+#off-no{ background-color:#333}
+#on-off{ width: 98px; background-color:#003;}
+.on-off-sure{ background-color:#C00;}
+#tab{
+	width:60px;	
+	}
+#www{width:80px;}
+#menu{ width:90px; background-color:#003}
+#space{ width:300px;}
+#shift{width:120px;background-color:#333;}
+#com{width:80px;}
+#copy, #cut{ width:60px; background-color:#333;}
+#paste{ width:80px; background-color:#333;}
+
+#enter{width:120px; background-color:#03F;}
+#backspace{
+	background-color:#333;
+	font-size:28px;
+	width:64px;
+	margin-left: 18px;
+}
+#n-0, #a-1, #a-2, #a-3, #a-4{
+	height: 60px;
+	clear:both;
+	width: 1000px;
+}
+
+.popout{
+ width:60px;
+ height:60px;
+ font-size:42px;
+ color:#000;
+ background-color:#CCC;
+}
+
+.shift-on{
+	background-color:#333;
+	color:#FFF;
+}
+
+#_amp{}
